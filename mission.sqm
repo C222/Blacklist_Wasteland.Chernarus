@@ -90,7 +90,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=4;
+		items=9;
 		class Item0
 		{
 			position[]={10511.01,6,2268.4426};
@@ -99,7 +99,6 @@ class Mission
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorKhaki";
-			fillName="DiagGrid";
 			a=250;
 			b=250;
 		};
@@ -111,7 +110,6 @@ class Mission
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorKhaki";
-			fillName="DiagGrid";
 			a=250;
 			b=250;
 		};
@@ -123,7 +121,6 @@ class Mission
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorKhaki";
-			fillName="DiagGrid";
 			a=300;
 			b=300;
 		};
@@ -135,9 +132,63 @@ class Mission
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorKhaki";
-			fillName="DiagGrid";
 			a=500;
 			b=500;
+		};
+		class Item4
+		{
+			position[]={4481.6489,5.9869003,2439.8245};
+			name="Balota_Town";
+			text="Balota Town";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorKhaki";
+			a=150;
+			b=150;
+		};
+		class Item5
+		{
+			position[]={4728.9146,8.9211664,2563.4124};
+			name="Balota_Air";
+			text="Balota Air Station";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorKhaki";
+			a=100;
+			b=100;
+		};
+		class Item6
+		{
+			position[]={3554.8438,5.882875,2399.3047};
+			name="Komarovo";
+			text="Komarovo";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorKhaki";
+			a=300;
+			b=300;
+		};
+		class Item7
+		{
+			position[]={1845.4663,7.4822607,2258.4211};
+			name="Kamenka";
+			text="Kamenka";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorKhaki";
+			a=200;
+			b=200;
+		};
+		class Item8
+		{
+			position[]={8672.2168,6.5597987,2430.9585};
+			name="Pik";
+			text="Pik Kozlova";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorKhaki";
+			a=50;
+			b=50;
 		};
 	};
 };
