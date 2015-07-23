@@ -1,0 +1,215 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"cacharacters_e",
+		"ca_modules_functions",
+		"cacharacters_pmc",
+		"chernarus",
+		"camisc3",
+		"caweapons_ammoboxes",
+		"cabuildings",
+		"cacharacters_baf",
+		"CAAir_E_UH1H_EP1",
+		"CAAir_BAF",
+		"CAAir_E_AH6J",
+		"CAWater",
+		"cawater2_fishing_boat",
+		"A3_Characters_F_Kart",
+		"aia_chernarus_config",
+		"rhs_cti_insurgents",
+		"rhsusf_c_troops"
+	};
+	addOnsAuto[]=
+	{
+		"rhs_cti_insurgents",
+		"rhsusf_c_troops",
+		"aia_chernarus_config"
+	};
+	randomSeed=11986584;
+	class Intel
+	{
+		briefingName="Blacklist Wasteland - Chernarus [v0.0.1]";
+		resistanceWest=0;
+		startWeather=0.1;
+		startWind=0.1;
+		forecastWeather=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		year=2020;
+		month=6;
+		day=20;
+		hour=12;
+		minute=20;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+	class Groups
+	{
+		items=2;
+		class Item0
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-3504.5718,187.89145,2931.4707};
+					id=0;
+					side="GUER";
+					vehicle="rhs_g_Soldier_lite_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-3189.1841,187.17398,2927.9307};
+					id=1;
+					side="WEST";
+					vehicle="rhsusf_army_ucp_riflemanl";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+				};
+			};
+		};
+	};
+	class Markers
+	{
+		items=3;
+		class Item0
+		{
+			position[]={10511.01,6,2268.4426};
+			name="Town_Elektro";
+			text="Elektro North";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorKhaki";
+			fillName="DiagGrid";
+			a=250;
+			b=250;
+		};
+		class Item1
+		{
+			position[]={10101.603,6.0117731,2000.8877};
+			name="Elektro_City";
+			text="Elektro South";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorKhaki";
+			fillName="DiagGrid";
+			a=250;
+			b=250;
+		};
+		class Item2
+		{
+			position[]={7961.7554,5.4377055,3383.8113};
+			name="Prig";
+			text="Prigorodki";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorKhaki";
+			fillName="DiagGrid";
+			a=300;
+			b=300;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"chernarus",
+		"aia_chernarus_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_chernarus_config"
+	};
+	randomSeed=16482725;
+	class Intel
+	{
+		startWeather=0.1;
+		startWind=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		year=2009;
+		month=4;
+		day=7;
+		hour=8;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"chernarus",
+		"aia_chernarus_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_chernarus_config"
+	};
+	randomSeed=7774233;
+	class Intel
+	{
+		startWeather=0.1;
+		startWind=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		year=2009;
+		month=4;
+		day=7;
+		hour=12;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"chernarus",
+		"aia_chernarus_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_chernarus_config"
+	};
+	randomSeed=2929229;
+	class Intel
+	{
+		startWeather=0.1;
+		startWind=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		year=2009;
+		month=4;
+		day=7;
+		hour=8;
+		minute=0;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};

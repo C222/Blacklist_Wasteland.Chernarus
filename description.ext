@@ -1,0 +1,6 @@
+onLoadMission = "Blacklist Wasteland [v0.0.1]";
+respawn = "INSTANT";
+class CfgFunctions
+{
+	#include "config\CfgFunctions.hpp"
+};
