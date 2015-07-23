@@ -90,7 +90,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=9;
+		items=19;
 		class Item0
 		{
 			position[]={10511.01,6,2268.4426};
@@ -189,6 +189,106 @@ class Mission
 			colorName="ColorKhaki";
 			a=50;
 			b=50;
+		};
+		class Item9
+		{
+			position[]={12065.381,5.7592807,3594.3188};
+			name="Kamy";
+			text="Kamyshovo";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item10
+		{
+			position[]={12761.283,174.50844,4416.9189};
+			name="Tulga";
+			text="Tulga";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item11
+		{
+			position[]={13110.356,6.0024762,5460.9595};
+			name="3V";
+			text="Three Valleys";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item12
+		{
+			position[]={9132.2627,228.45947,3931.4253};
+			name="Pusta";
+			text="Pusta";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item13
+		{
+			position[]={13302.99,4.9664993,6251.7192};
+			name="Soln_Town";
+			text="Solnichniy";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item14
+		{
+			position[]={13015.233,9.394496,6965.4912};
+			name="Soln_Factory";
+			text="Solnichniy Factory";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item15
+		{
+			position[]={12910.027,5.3016963,8147.7686};
+			name="Niz";
+			text="Nizhnoye";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item16
+		{
+			position[]={12067.876,40.998272,9290.0039};
+			name="Berez_S";
+			text="Berezino South";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=500;
+			b=500;
+		};
+		class Item17
+		{
+			position[]={12850.762,5.9749856,10178.347};
+			name="Berez_N";
+			text="Berezino North";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item18
+		{
+			position[]={12716.432,5.9899998,9653.7227};
+			name="LM";
+			text="Berezino Lumber Mill";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
 		};
 	};
 };

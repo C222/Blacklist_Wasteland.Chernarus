@@ -1,1 +1,1 @@
-["Town_Elektro", "Elektro_City", "Prig", "Cherno", "Balota_Town", "Balota_Air", "Komarovo", "Kamenka", "Pik"]
+["Town_Elektro", "Elektro_City", "Prig", "Cherno", "Balota_Town", "Balota_Air", "Komarovo", "Kamenka", "Pik", "Kamy", "Tulga", "3V", "Pusta", "Soln_Town", "Soln_Factory", "Niz", "Berez_S", "Berez_N", "LM"]
