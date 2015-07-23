@@ -1,1 +1,1 @@
-["Town_Elektro", "Elektro_City", "Prig"]
+["Town_Elektro", "Elektro_City", "Prig", "Cherno"]

@@ -90,7 +90,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=3;
+		items=4;
 		class Item0
 		{
 			position[]={10511.01,6,2268.4426};
@@ -126,6 +126,18 @@ class Mission
 			fillName="DiagGrid";
 			a=300;
 			b=300;
+		};
+		class Item3
+		{
+			position[]={6670.7661,6,2748.157};
+			name="Cherno";
+			text="Chernogorsk";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorKhaki";
+			fillName="DiagGrid";
+			a=500;
+			b=500;
 		};
 	};
 };
