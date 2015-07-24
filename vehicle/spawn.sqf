@@ -1,7 +1,7 @@
 iter = _this select 0;
 
 vehicles_ = [] call config_fnc_getVehicles;
-towns = [] call config_fnc_getTowns;
+towns = [] call config_fnc_getTowns select 0;
 
 chosenIdx = random ((count towns) - 1);
 markerName = towns select chosenIdx;

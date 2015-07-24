@@ -1,6 +1,6 @@
 thePlayer = _this select 0;
 
-towns = [] call config_fnc_getTowns;
+towns = [] call config_fnc_getTowns select 0;
 
 chosenIdx = random ((count towns) - 1);
 markerName = towns select chosenIdx;

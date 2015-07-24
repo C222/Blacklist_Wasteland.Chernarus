@@ -90,7 +90,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=19;
+		items=56;
 		class Item0
 		{
 			position[]={10511.01,6,2268.4426};
@@ -289,6 +289,376 @@ class Mission
 			type="Empty";
 			a=250;
 			b=250;
+		};
+		class Item19
+		{
+			position[]={12305.036,97.761726,10781.839};
+			name="Khelm";
+			text="Khelm";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item20
+		{
+			position[]={11056.89,215.37109,12328.564};
+			name="Krasno";
+			text="Krasnostav";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item21
+		{
+			position[]={11995.13,162.57121,12578.378};
+			name="NEAF";
+			text="Northeast Airfield";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item22
+		{
+			position[]={13355.271,94,12866.101};
+			name="Olsha";
+			text="Olsha";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=100;
+			b=100;
+		};
+		class Item23
+		{
+			position[]={8666.3848,196.56174,11837.054};
+			name="Gvozdno";
+			text="Gvozdno";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=350;
+			b=350;
+		};
+		class Item24
+		{
+			position[]={10147.263,153.53056,10070.825};
+			name="Dubrovka";
+			text="Dubrovka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=650;
+			b=650;
+		};
+		class Item25
+		{
+			position[]={9583.6738,296.69031,8807.3008};
+			name="Gorka";
+			text="Gorka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item26
+		{
+			position[]={10678.809,210.99001,8030.3062};
+			name="Polana";
+			text="Polana";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item27
+		{
+			position[]={12164.81,179.83603,7265.8701};
+			name="Orlovets";
+			text="Orlovets";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item28
+		{
+			position[]={11237.927,76.97258,6593.8916};
+			name="Dolina";
+			text="Dolina";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item29
+		{
+			position[]={9623.792,209.64137,6553.1084};
+			name="Shak";
+			text="Shakhovka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=125;
+			b=125;
+		};
+		class Item30
+		{
+			position[]={10111.806,245.29948,5515.2861};
+			name="Staroye";
+			text="Staroye";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item31
+		{
+			position[]={11334.639,253.99641,5500.582};
+			name="Msta";
+			text="Msta";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item32
+		{
+			position[]={8466.0732,352.16095,6735.4902};
+			name="Guglovo";
+			text="Guglovo";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item33
+		{
+			position[]={7070.457,293.98999,7684.8838};
+			name="Novy";
+			text="Novy Sobor";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item34
+		{
+			position[]={6110.5273,300.98999,7722.1548};
+			name="Stary";
+			text="Stary Sobor";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=325;
+			b=325;
+		};
+		class Item35
+		{
+			position[]={5357.4604,334.02496,8626.2002};
+			name="Kabanino";
+			text="Kabanino";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item36
+		{
+			position[]={3881.5029,311.00534,8860.3301};
+			name="Vybor";
+			text="Vybor";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=350;
+			b=350;
+		};
+		class Item37
+		{
+			position[]={2721.3955,273.44611,9863.2871};
+			name="Lopatino";
+			text="Lopatino";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item38
+		{
+			position[]={5998.1743,268.59106,10308.146};
+			name="Grishino";
+			text="Grishino";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item39
+		{
+			position[]={4978.4849,181.99001,12505.03};
+			name="Petrovka";
+			text="Petrovka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=125;
+			b=125;
+		};
+		class Item40
+		{
+			position[]={4346.0161,339,10612.345};
+			name="NWAF_N";
+			text="Northwest Airfield";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item41
+		{
+			position[]={4757.0322,339,9958.3291};
+			name="NWAF_S";
+			text="Northwest Airfield";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item42
+		{
+			position[]={3076.0979,301.08286,7915.5918};
+			name="Pusto";
+			text="Postoshka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item43
+		{
+			position[]={1990.9218,259.09073,7384.4395};
+			name="Mysh";
+			text="Myshkino";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item44
+		{
+			position[]={2503.1799,301.58014,6361.7959};
+			name="Sosnovka";
+			text="Sosnovka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=125;
+			b=125;
+		};
+		class Item45
+		{
+			position[]={2658.9902,198.82547,5248.7813};
+			name="Zeleno";
+			text="Zelenogorsk";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item46
+		{
+			position[]={1742.4127,142.476,3824.4451};
+			name="Pavlovo";
+			text="Pavlovo";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item47
+		{
+			position[]={3415.4712,185.92628,3913.8501};
+			name="Bor";
+			text="Bor";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item48
+		{
+			position[]={3368.7937,240.73804,4946.3804};
+			name="Droz";
+			text="Drozhino";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=100;
+			b=100;
+		};
+		class Item49
+		{
+			position[]={4442.769,233.66951,4634.8672};
+			name="Koz";
+			text="Kozlovka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item50
+		{
+			position[]={5914.2715,144.00754,4782.3076};
+			name="Nadezhdino";
+			text="Nadezhdino";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=275;
+			b=275;
+		};
+		class Item51
+		{
+			position[]={4919.4751,322.80865,5602.749};
+			name="Pulkovo";
+			text="Pulkovo";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=100;
+			b=100;
+		};
+		class Item52
+		{
+			position[]={4538.9019,289.82281,6415.3115};
+			name="Pogorevka";
+			text="Pogorevka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item53
+		{
+			position[]={4736.3843,269.89685,6726.5498};
+			name="Rogovo";
+			text="Rogovo";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item54
+		{
+			position[]={6540.1265,321.99207,6110.8188};
+			name="Vyshnoye";
+			text="Vyshnoye";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=175;
+			b=175;
+		};
+		class Item55
+		{
+			position[]={7552.3784,213.98193,5139.3667};
+			name="Mogi";
+			text="Mogilevka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
 		};
 	};
 };
