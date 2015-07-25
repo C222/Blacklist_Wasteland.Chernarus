@@ -1,19 +1,19 @@
-center = _this select 0;
-radius = _this select 1;
-threshold = _this select 2;
+_center = _this select 0;
+_radius = _this select 1;
+_threshold = _this select 2;
 
-safety = 0;
+_safety = 0;
 
-while {safety < threshold} do
+while {_safety < _threshold} do
 {
-	offset = [radius] call util_fnc_randRadius;
+	_offset = [_radius] call util_fnc_randRadius;
 
-	xPos = (center select 0) + (offset select 0);
-	yPos = (center select 1) + (offset select 1);
+	_xPos = (_center select 0) + (_offset select 0);
+	_yPos = (_center select 1) + (_offset select 1);
 	
-	finalPos = [xPos, yPos, (center select 2)];
+	finalPos = [_xPos, _yPos, (_center select 2)];
 
-	safety = (nearestObject [finalPos, "Building"]) distance finalPos; //(nearestBuilding thePlayer) distance thePlayer;
+	_safety = (nearestObject [finalPos, "Building"]) distance finalPos; //(nearestBuilding thePlayer) distance thePlayer;
 };
 
 finalPos

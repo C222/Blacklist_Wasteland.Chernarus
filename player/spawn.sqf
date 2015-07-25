@@ -1,6 +1,6 @@
 _thePlayer = _this select 0;
 
-_thePlayer setPos [-5000, 5000, 0];
+_thePlayer setPos [-20000 - (random 10000), 5000 + random 15000, 0];
 
 chosen = false;
 
