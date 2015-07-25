@@ -20,12 +20,14 @@ class Mission
 		"A3_Characters_F_Kart",
 		"aia_chernarus_config",
 		"rhs_cti_insurgents",
-		"rhsusf_c_troops"
+		"rhsusf_c_troops",
+		"rhs_c_troops"
 	};
 	addOnsAuto[]=
 	{
 		"rhs_cti_insurgents",
 		"rhsusf_c_troops",
+		"rhs_c_troops",
 		"aia_chernarus_config"
 	};
 	randomSeed=11986584;
@@ -48,7 +50,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=2;
+		items=9;
 		class Item0
 		{
 			side="GUER";
@@ -57,7 +59,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3504.5718,187.89145,2931.4707};
+					position[]={-1041.748,29.769714,1723.6154};
 					id=0;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -76,7 +78,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3189.1841,187.17398,2927.9307};
+					position[]={-696.37817,29.909517,1724.359};
 					id=1;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -87,10 +89,143 @@ class Mission
 				};
 			};
 		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-331.27759,27.054668,1708.9305};
+					id=2;
+					side="EAST";
+					vehicle="rhs_msv_rifleman";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+				};
+			};
+		};
+		class Item3
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-1052.3495,95.635796,2017.8066};
+					id=3;
+					side="GUER";
+					vehicle="rhs_g_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-706.97961,95.746849,2018.5503};
+					id=4;
+					side="WEST";
+					vehicle="rhsusf_army_ucp_riflemanl";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+				};
+			};
+		};
+		class Item5
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-341.87903,93.282814,2003.1218};
+					id=5;
+					side="EAST";
+					vehicle="rhs_msv_rifleman";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+				};
+			};
+		};
+		class Item6
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-1047.0488,124.75164,2354.3994};
+					id=6;
+					side="GUER";
+					vehicle="rhs_g_Soldier_lite_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-701.67908,124.67682,2355.1431};
+					id=7;
+					side="WEST";
+					vehicle="rhsusf_army_ucp_riflemanl";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+				};
+			};
+		};
+		class Item8
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={-336.57849,126.42346,2339.7146};
+					id=8;
+					side="EAST";
+					vehicle="rhs_msv_rifleman";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+				};
+			};
+		};
 	};
 	class Markers
 	{
-		items=56;
+		items=76;
 		class Item0
 		{
 			position[]={10511.01,6,2268.4426};
@@ -659,6 +794,187 @@ class Mission
 			type="Empty";
 			a=150;
 			b=150;
+		};
+		class Item56
+		{
+			position[]={8248.041,459.02274,9186.4893};
+			name="Altar";
+			text="Altar";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=500;
+			b=500;
+		};
+		class Item57
+		{
+			position[]={6327.9854,336.66403,8297.9316};
+			name="Stary_Field";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item58
+		{
+			position[]={6907.9761,380.87482,11687.296};
+			name="Devils";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=100;
+			b=100;
+		};
+		class Item59
+		{
+			position[]={6926.7339,326.67239,5749.562};
+			name="Zub";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=100;
+			b=100;
+		};
+		class Item60
+		{
+			position[]={5364.769,308.97873,5631.1104};
+			name="Pulkovo_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item61
+		{
+			position[]={3159.311,366.69946,6769.0649};
+			name="Sosnovy";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=100;
+			b=100;
+		};
+		class Item62
+		{
+			position[]={1825.5385,168.47287,5234.3491};
+			name="Zeleno_Farms";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item63
+		{
+			position[]={4831.9082,9,2452.9534};
+			name="Balota_Strip";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=50;
+			b=50;
+		};
+		class Item64
+		{
+			position[]={4390.4321,7.1867075,2723.0447};
+			name="Balota_Field";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item65
+		{
+			position[]={5725.6709,74.771408,2558.573};
+			name="Mutnaya";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item66
+		{
+			position[]={6673.0791,69.211449,3635.3118};
+			name="Vysota";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=175;
+			b=175;
+		};
+		class Item67
+		{
+			position[]={7296.1689,7.8952417,3603.8533};
+			name="Chyornaya";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item68
+		{
+			position[]={6611.8115,229.08865,4674.9478};
+			name="Orzerko";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=100;
+			b=100;
+		};
+		class Item69
+		{
+			position[]={12335.205,178.67805,6874.0317};
+			name="Orlovets_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item70
+		{
+			position[]={10991.926,250.72141,8291.1523};
+			name="Dubina";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item71
+		{
+			position[]={10420.977,240.25775,8597.7949};
+			name="Gas_Station";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item72
+		{
+			position[]={9540.0547,238.43176,11486.277};
+			name="Novy_Lug";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item73
+		{
+			position[]={9731.7412,146.84145,13207.593};
+			name="Pobeda";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item74
+		{
+			position[]={7201.1636,385.30219,9646.0898};
+			name="Old_Fields";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item75
+		{
+			position[]={4530.8438,339,10294.738};
+			name="NWAF";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
 		};
 	};
 };

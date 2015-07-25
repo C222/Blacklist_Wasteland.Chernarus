@@ -1,1 +1,1 @@
-vehicleCount = 700;
+vehicleCount = [500, 100, 90, 10];

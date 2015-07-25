@@ -8,21 +8,25 @@ diag_log format ["Towns are: %1", [] call config_fnc_getTowns select 0];
 {
 	diag_log format ["Hiding: %1", _x];
 	_x setMarkerAlpha 0;
-} forEach ([] call config_fnc_getTowns select 0);
-{
-	diag_log format ["Hiding: %1", _x];
-	_x setMarkerAlpha 0;
-} forEach ([] call config_fnc_getTowns select 1);
-{
-	diag_log format ["Hiding: %1", _x];
-	_x setMarkerAlpha 0;
-} forEach ([] call config_fnc_getTowns select 2);
+} forEach ([] call config_fnc_getTowns select 0) + ([] call config_fnc_getTowns select 1) + ([] call config_fnc_getTowns select 2);
 
 diag_log format ["Spawning Vehicles"];
 
-for "_x" from 1 to vehicleCount do
+for "_x" from 1 to (vehicleCount select 0) do
 {
-	[_x] spawn vehicle_fnc_spawn;
+	[_x, 0, 0] spawn vehicle_fnc_spawn;
+};
+for "_x" from 1 to (vehicleCount select 1) do
+{
+	[_x, 1, 0] spawn vehicle_fnc_spawn;
+};
+for "_x" from 1 to (vehicleCount select 2) do
+{
+	[_x, 2, 1] spawn vehicle_fnc_spawn;
+};
+for "_x" from 1 to (vehicleCount select 3) do
+{
+	[_x, 3, 2] spawn vehicle_fnc_spawn;
 };
 
 diag_log format ["Done"];
