@@ -1,24 +1,47 @@
-thePlayer = _this select 0;
+_thePlayer = _this select 0;
 
-towns = [] call config_fnc_getTowns select 0;
+_thePlayer setPos [-5000, 5000, 0];
 
-chosenIdx = random ((count towns) - 1);
-markerName = towns select chosenIdx;
+chosen = false;
 
-hint format ["Spawning at %1", markerText markerName];
+_ok = createDialog "SPAWN_DIALOG";
 
-mPos = markerPos markerName;
-mSize = markerSize markerName;
+waitUntil {chosen};
 
-radius  = (mSize select 0);
+_towns = [] call config_fnc_getTowns select 0;
 
-spawnPos = [mPos, radius, 10] call util_fnc_safeSpot;
+_chosenIdx = random ((count _towns) - 1);
+_markerName = _towns select _chosenIdx;
 
-spawnPos set [2, 1000];
+_mPos = markerPos _markerName;
+_mSize = markerSize _markerName;
 
-thePlayer setPos spawnPos;
+_radius  = (_mSize select 0);
 
-thePlayer addBackpack "B_Parachute";
+_spawnPos = [_mPos, _radius, 10] call util_fnc_safeSpot;
 
-// _veh = createVehicle ["Steerable_Parachute_F", spawnPos, [], 0, "FLY"];
+if (parachute) then
+{
+	_spawnPos set [2, 1000];
+	_thePlayer addBackpack "B_Parachute";
+};
+
+_thePlayer enableFatigue false;
+_thePlayer setPos _spawnPos;
+
+_now = date;
+_year = _now select 0;
+_month = _now select 1;
+_day = _now select 2;
+_hour = _now select 3;
+_min  = _now select 4;
+
+// hint format ["Spawning at %1", markerText _markerName];
+[
+	markerText _markerName,
+	"Chernarus",
+	format ["%1-%2-%3 | %4:%5", _year, _month, _day, _hour, _min]
+] spawn BIS_fnc_infoText;
+
+// _veh = createVehicle ["Steerable_Parachute_F", _spawnPos, [], 0, "FLY"];
 // player moveInDriver _veh;

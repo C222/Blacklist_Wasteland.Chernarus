@@ -6,7 +6,7 @@ diag_log format ["WASTELAND SERVER - Initilizing Server"];
 diag_log format ["Towns are: %1", [] call config_fnc_getTowns select 0];
 
 {
-	diag_log format ["Hiding: %1", _x];
+	// diag_log format ["Hiding: %1", _x];
 	_x setMarkerAlpha 0;
 } forEach ([] call config_fnc_getTowns select 0) + ([] call config_fnc_getTowns select 1) + ([] call config_fnc_getTowns select 2);
 
