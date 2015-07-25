@@ -14,8 +14,12 @@
 	"Mogi"],
 
 	// Missions
-	[],
+	["Altar", "Stary_Field", "Balota_Field", "Mutnaya", "Vysota",
+	"Ozerko", "Gas_Station", "Novy_Lug", "Pobeda", "NWAF"],
 
 	// Special
-	[]
+	["Altar", "Stary_Field", "Devils", "Zub", "Pulkovo_1",
+	"Sosnovy", "Zeleno_Farms", "Balota_Strip", "Chyornaya",
+	"Orlovets_1", "Dubina", "Novy_Lug", "Pobeda", "Old_Fields",
+	"NWAF"]
 ]
