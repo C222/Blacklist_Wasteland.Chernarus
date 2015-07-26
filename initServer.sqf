@@ -14,19 +14,24 @@ diag_log format ["Spawning Vehicles"];
 
 for "_x" from 1 to (vehicleCount select 0) do
 {
-	[_x, 0, 0] spawn vehicle_fnc_spawn;
+	[_x, 0, 0] call vehicle_fnc_spawn;
 };
 for "_x" from 1 to (vehicleCount select 1) do
 {
-	[_x, 1, 0] spawn vehicle_fnc_spawn;
+	[_x, 1, 0] call vehicle_fnc_spawn;
 };
 for "_x" from 1 to (vehicleCount select 2) do
 {
-	[_x, 2, 1] spawn vehicle_fnc_spawn;
+	[_x, 2, 1] call vehicle_fnc_spawn;
 };
 for "_x" from 1 to (vehicleCount select 3) do
 {
-	[_x, 3, 2] spawn vehicle_fnc_spawn;
+	[_x, 3, 2] call vehicle_fnc_spawn;
 };
 
+diag_log format ["Spawning server agents."];
+[] spawn server_fnc_mapAgent;
+
+sleep 5;
+readyForSpawn = true;
 diag_log format ["Done"];

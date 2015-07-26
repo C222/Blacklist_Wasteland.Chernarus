@@ -25,6 +25,10 @@ class util
 		{
 			file = "util\randRadius.sqf";
 		};
+		class playersWithin
+		{
+			file = "util\playersWithin.sqf";
+		};
 	};
 };
 
@@ -46,6 +50,17 @@ class vehicle
 		class spawn
 		{
 			file = "vehicle\spawn.sqf";
+		};
+	};
+};
+
+class server
+{
+	class common
+	{
+		class mapAgent
+		{
+			file = "server\mapAgent.sqf";
 		};
 	};
 };
