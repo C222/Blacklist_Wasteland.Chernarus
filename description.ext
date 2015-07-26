@@ -2,9 +2,12 @@
 #include "dialogs.hpp"
 
 onLoadMission = "Blacklist Wasteland [v0.0.1]";
-respawn = "INSTANT";
+respawn = "BASE";
+disabledAI = 1;
 
 class CfgFunctions
 {
 	#include "config\CfgFunctions.hpp"
 };
+
+class CfgRemoteExecCommands {};

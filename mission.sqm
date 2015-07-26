@@ -225,7 +225,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=88;
+		items=91;
 		class Item0
 		{
 			position[]={10511.01,6,2268.4426};
@@ -1083,6 +1083,24 @@ class Mission
 			type="Empty";
 			a=100;
 			b=100;
+		};
+		class Item88
+		{
+			position[]={-902.2287,445.30258,14490.539};
+			name="respawn_west";
+			type="Empty";
+		};
+		class Item89
+		{
+			position[]={-428.51575,446.85242,14506.873};
+			name="respawn_east";
+			type="Empty";
+		};
+		class Item90
+		{
+			position[]={-602.75488,347.617,14109.391};
+			name="respawn_guerilla";
+			type="Empty";
 		};
 	};
 };
