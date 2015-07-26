@@ -10,6 +10,10 @@ class config
 		{
 			file = "config\vehicles.sqf";
 		};
+		class getLoot
+		{
+			file = "config\loot.sqf";
+		};
 	};
 };
 
@@ -28,6 +32,10 @@ class util
 		class playersWithin
 		{
 			file = "util\playersWithin.sqf";
+		};
+		class magazinesFor
+		{
+			file = "util\magazinesFor.sqf";
 		};
 	};
 };
@@ -50,6 +58,10 @@ class vehicle
 		class spawn
 		{
 			file = "vehicle\spawn.sqf";
+		};
+		class giveLoadout
+		{
+			file = "vehicle\giveLoadout.sqf";
 		};
 	};
 };

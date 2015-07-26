@@ -22,6 +22,7 @@ _spawnPos = [_mPos, _radius, 20] call util_fnc_safeSpot;
 
 spawnedV = _vehicle createVehicle _spawnPos;
 spawnedV setDir random 360;
+[spawnedV] call vehicle_fnc_giveLoadout;
 
 _spawnedM = createMarker [format ["Marker_%1_%2", _iter, _type], _spawnPos];
 _spawnedM setMarkerShape "ICON";
