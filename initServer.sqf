@@ -34,4 +34,5 @@ diag_log format ["Spawning server agents."];
 
 sleep 5;
 readyForSpawn = true;
+publicVariable "readyForSpawn";
 diag_log format ["Done"];

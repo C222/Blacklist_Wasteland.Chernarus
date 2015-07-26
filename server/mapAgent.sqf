@@ -29,7 +29,6 @@ while {true} do
 			if ((count _sides) == 1) then
 			{
 				_side = _sides select 0;
-				diag_log format ["%1", _side];
 				if (_side == resistance) then
 				{
 					_mName setMarkerAlpha 0.5;
