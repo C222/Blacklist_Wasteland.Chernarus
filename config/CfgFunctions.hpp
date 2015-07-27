@@ -78,5 +78,9 @@ class server
 		{
 			file = "server\mapAgent.sqf";
 		};
+		class vehicleWatcher
+		{
+			file = "server\vehicleWatcher.sqf";
+		};
 	};
 };
