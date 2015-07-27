@@ -52,6 +52,8 @@ _day = _now select 2;
 _hour = _now select 3;
 _min  = _now select 4;
 
+[_thePlayer, [2, 1, 2, 2, 0, 2, 0, 0]] call plank_api_fnc_forceAddFortifications;
+
 // hint format ["Spawning at %1", markerText _markerName];
 [
 	markerText _markerName,

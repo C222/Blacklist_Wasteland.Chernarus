@@ -13,7 +13,7 @@ if (side player == east) then
 ["iconAgent", "onEachFrame",
 {
 	 {
-		if ((side _x == side player) and (true)) then
+		if ((side _x == side player) and (_x != player)) then
 		{
 			_fpos = getPos _x;
 			_fpos set [2, (_fpos select 2) + 1];

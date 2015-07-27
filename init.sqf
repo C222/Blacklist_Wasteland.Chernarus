@@ -1,0 +1,1 @@
+call compile preprocessFileLineNumbers "plank\plank_init.sqf";
