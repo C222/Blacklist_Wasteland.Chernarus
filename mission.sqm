@@ -105,6 +105,8 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
+					syncId=0;
+					synchronizations[]={0};
 				};
 			};
 		};
