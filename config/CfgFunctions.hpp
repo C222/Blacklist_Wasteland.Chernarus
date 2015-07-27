@@ -84,3 +84,14 @@ class server
 		};
 	};
 };
+
+class client
+{
+	class common
+	{
+		class iconAgent
+		{
+			file = "client\iconAgent.sqf"
+		};
+	};
+};
