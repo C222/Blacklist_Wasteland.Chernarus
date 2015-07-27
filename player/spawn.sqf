@@ -21,7 +21,15 @@ _mSize = markerSize _markerName;
 
 _radius  = (_mSize select 0);
 
-_spawnPos = [_mPos, _radius, 10] call util_fnc_safeSpot;
+// _spawnPos = [_mPos, _radius, 10] call util_fnc_safeSpot;
+
+_offset = [_radius] call util_fnc_randRadius;
+
+_xPos = (_mPos select 0) + (_offset select 0);
+_yPos = (_mPos select 1) + (_offset select 1);
+_mPos = [_xPos, _yPos, (_mPos select 2)];
+
+_spawnPos = _mPos findEmptyPosition [0, 10, "CAManBase"];
 
 _thePlayer enableFatigue false;
 
