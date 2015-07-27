@@ -23,12 +23,6 @@ _radius  = (_mSize select 0);
 
 _spawnPos = [_mPos, _radius, 10] call util_fnc_safeSpot;
 
-if (parachute) then
-{
-	_spawnPos set [2, 1000];
-	_thePlayer addBackpack "B_Parachute";
-};
-
 _thePlayer enableFatigue false;
 
 removeGoggles _thePlayer;
@@ -42,6 +36,12 @@ _vest = _vests select floor(random(count _vests));
 
 _thePlayer forceAddUniform _uniform;
 _thePlayer addVest _vest;
+
+if (parachute) then
+{
+	_spawnPos set [2, 1000];
+	_thePlayer addBackpack "B_Parachute";
+};
 
 _thePlayer setPos _spawnPos;
 
