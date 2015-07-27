@@ -91,7 +91,7 @@ class client
 	{
 		class iconAgent
 		{
-			file = "client\iconAgent.sqf"
+			file = "client\iconAgent.sqf";
 		};
 	};
 };
