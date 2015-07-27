@@ -3,6 +3,7 @@ _vehicle = _this select 0;
 clearItemCargoGlobal _vehicle;
 clearMagazineCargoGlobal _vehicle;
 clearWeaponCargoGlobal _vehicle;
+clearBackpackCargoGlobal _vehicle;
 
 _primaries = ([] call config_fnc_getLoot) select 0;
 _pistols = ([] call config_fnc_getLoot) select 1;

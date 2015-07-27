@@ -9,6 +9,9 @@ _ok = createDialog "SPAWN_DIALOG";
 waitUntil {chosen};
 
 _towns = [] call config_fnc_getTowns select 0;
+_gear = [side _thePlayer] call config_fnc_getGear;
+_uniforms = _gear select 0;
+_vests = _gear select 1;
 
 _chosenIdx = random ((count _towns) - 1);
 _markerName = _towns select _chosenIdx;
@@ -27,6 +30,19 @@ if (parachute) then
 };
 
 _thePlayer enableFatigue false;
+
+removeGoggles _thePlayer;
+removeAllWeapons _thePlayer;
+removeAllContainers _thePlayer;
+// removeAllAssignedItems _thePlayer;
+removeHeadgear _thePlayer;
+
+_uniform = _uniforms select floor(random(count _uniforms));
+_vest = _vests select floor(random(count _vests));
+
+_thePlayer forceAddUniform _uniform;
+_thePlayer addVest _vest;
+
 _thePlayer setPos _spawnPos;
 
 _now = date;

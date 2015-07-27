@@ -14,6 +14,10 @@ class config
 		{
 			file = "config\loot.sqf";
 		};
+		class getGear
+		{
+			file = "config\gear.sqf";
+		};
 	};
 };
 

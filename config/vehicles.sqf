@@ -13,7 +13,6 @@
 	"RHS_Ural_Civ_01", "RHS_Ural_Civ_02", "RHS_Ural_Civ_03", "RHS_Ural_Open_Civ_01", "RHS_Ural_Open_Civ_02", "RHS_Ural_Open_Civ_03",
 	"RHS_Civ_Truck_02_covered_F", "RHS_Civ_Truck_02_transport_F",
 	"rhs_gaz66_vmf", "rhs_gaz66_vdv", "rhs_gaz66_vv", "rhs_gaz66_msv", "rhs_gaz66_flat_vmf", "rhs_gaz66_flat_vdv", "rhs_gaz66_flat_vv", "rhs_gaz66_flat_msv", "rhs_gaz66o_vmf", "rhs_gaz66o_vdv", "rhs_gaz66o_vv", "rhs_gaz66o_msv", "rhs_gaz66o_flat_vmf", "rhs_gaz66o_flat_vdv", "rhs_gaz66o_flat_vv", "rhs_gaz66o_flat_msv",
-	"rhsusf_M1078A1P2_B_wd_fmtv_usarmy", "rhsusf_M1078A1P2_B_wd_open_fmtv_usarmy", "rhsusf_M1078A1P2_B_wd_flatbed_fmtv_usarmy", "rhsusf_M1078A1P2_wd_fmtv_usarmy", "rhsusf_M1078A1P2_wd_open_fmtv_usarmy", "rhsusf_M1078A1P2_wd_flatbed_fmtv_usarmy", "rhsusf_M1083A1P2_B_wd_fmtv_usarmy", "rhsusf_M1083A1P2_B_wd_open_fmtv_usarmy", "rhsusf_M1083A1P2_B_wd_flatbed_fmtv_usarmy", "rhsusf_M1083A1P2_wd_fmtv_usarmy", "rhsusf_M1083A1P2_wd_open_fmtv_usarmy", "rhsusf_M1083A1P2_wd_flatbed_fmtv_usarmy",
 	"rhsusf_m998_w_2dr", "rhsusf_m998_w_s_2dr", "rhsusf_m998_w_2dr_halftop", "rhsusf_m998_w_s_2dr_halftop", "rhsusf_m998_w_2dr_fulltop", "rhsusf_m998_w_s_2dr_fulltop", "rhsusf_m998_w_4dr", "rhsusf_m998_w_s_4dr", "rhsusf_m998_w_4dr_halftop", "rhsusf_m998_w_s_4dr_halftop", "rhsusf_m998_w_4dr_fulltop", "rhsusf_m998_w_s_4dr_fulltop",
 	"RHS_UAZ_chdkz", "rhs_uaz_open_chdkz",
 	"rhs_ural_chdkz", "rhs_ural_open_chdkz", "rhs_ural_work_chdkz", "rhs_ural_work_open_chdkz",
@@ -32,6 +31,7 @@
 	"rhs_gaz66_repair_vmf", "rhs_gaz66_repair_vdv", "rhs_gaz66_repair_vv", "rhs_gaz66_repair_msv",
 	"rhs_gaz66_ap2_vmf", "rhs_gaz66_ap2_vdv", "rhs_gaz66_ap2_vv", "rhs_gaz66_ap2_msv",
 	"rhs_gaz66_ammo_vmf", "rhs_gaz66_ammo_vdv", "rhs_gaz66_ammo_vv", "rhs_gaz66_ammo_msv",
+	"rhsusf_M1078A1P2_B_wd_fmtv_usarmy", "rhsusf_M1078A1P2_B_wd_open_fmtv_usarmy", "rhsusf_M1078A1P2_B_wd_flatbed_fmtv_usarmy", "rhsusf_M1078A1P2_wd_fmtv_usarmy", "rhsusf_M1078A1P2_wd_open_fmtv_usarmy", "rhsusf_M1078A1P2_wd_flatbed_fmtv_usarmy", "rhsusf_M1083A1P2_B_wd_fmtv_usarmy", "rhsusf_M1083A1P2_B_wd_open_fmtv_usarmy", "rhsusf_M1083A1P2_B_wd_flatbed_fmtv_usarmy", "rhsusf_M1083A1P2_wd_fmtv_usarmy", "rhsusf_M1083A1P2_wd_open_fmtv_usarmy", "rhsusf_M1083A1P2_wd_flatbed_fmtv_usarmy",
 	"rhs_tigr_base", "rhs_tigr_vdv", "rhs_tigr_vmf", "rhs_tigr_msv", "rhs_tigr_vv", "rhs_tigr_3camo_vdv", "rhs_tigr_3camo_vmf", "rhs_tigr_3camo_msv", "rhs_tigr_3camo_vv", "rhs_tigr_ffv_vdv", "rhs_tigr_ffv_vmf", "rhs_tigr_ffv_msv", "rhs_tigr_ffv_vv", "rhs_tigr_ffv_3camo_vdv", "rhs_tigr_ffv_3camo_vmf", "rhs_tigr_ffv_3camo_msv", "rhs_tigr_ffv_3camo_vv"
 	],
 	
