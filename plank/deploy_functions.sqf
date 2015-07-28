@@ -1,4 +1,4 @@
-#include "plank_macros.h"
+#include "plank_macros.hpp"
 
 plank_deploy_fnc_setFortDirection = {
     FUN_ARGS_3(_unit,_fort,_fortIndex);

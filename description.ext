@@ -1,7 +1,7 @@
 #include "defines.hpp"
 #include "dialogs.hpp"
 
-#include "plank\plank.h"
+#include "plank\plank.hpp"
 
 onLoadMission = "Blacklist Wasteland [v0.0.1]";
 respawn = "BASE";

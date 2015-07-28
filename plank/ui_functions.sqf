@@ -1,4 +1,4 @@
-#include "plank_macros.h"
+#include "plank_macros.hpp"
 
 plank_ui_fnc_createSettingsDialog = {
     if (!dialog) then {

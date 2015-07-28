@@ -1,4 +1,4 @@
-#include "plank_macros.h"
+#include "plank_macros.hpp"
 
 /**
  * Removes all fortifications, including the one currently being placed, from a unit.
