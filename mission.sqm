@@ -21,15 +21,13 @@ class Mission
 		"aia_chernarus_config",
 		"rhs_cti_insurgents",
 		"rhsusf_c_troops",
-		"rhs_c_troops",
-		"A3_Structures_F_Walls"
+		"rhs_c_troops"
 	};
 	addOnsAuto[]=
 	{
 		"rhs_cti_insurgents",
 		"rhsusf_c_troops",
 		"rhs_c_troops",
-		"A3_Structures_F_Walls",
 		"aia_chernarus_config"
 	};
 	randomSeed=11986584;
@@ -225,20 +223,6 @@ class Mission
 					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
 				};
 			};
-		};
-	};
-	class Vehicles
-	{
-		items=1;
-		class Item0
-		{
-			position[]={-385.45718,65.17392,1881.7758};
-			id=9;
-			side="EMPTY";
-			vehicle="Land_CncWall4_F";
-			leader=1;
-			skill=0.20774715;
-			init="[this, 6] call plank_fnc_makePickupable";
 		};
 	};
 	class Markers

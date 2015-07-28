@@ -22,11 +22,15 @@ for "_x" from 1 to (vehicleCount select 1) do
 };
 for "_x" from 1 to (vehicleCount select 2) do
 {
-	[_x, 2, 1] call vehicle_fnc_spawn;
+	[_x, 2, 0] call vehicle_fnc_spawn;
 };
 for "_x" from 1 to (vehicleCount select 3) do
 {
 	[_x, 3, 2] call vehicle_fnc_spawn;
+};
+for "_x" from 1 to 300 do
+{
+	[_x, 0] call plank_fnc_spawnForts;
 };
 
 diag_log format ["Spawning server agents."];

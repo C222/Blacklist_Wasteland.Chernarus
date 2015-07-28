@@ -1,9 +1,16 @@
 _target = _this select 0;
-fortIdx = _this select 1;
+_fortIdx = _this select 1;
 
 _target addAction ["Pick Up",
 	{
-		[_this select 1, 1, fortIdx] call plank_deploy_fnc_addFortificationAction;
+		player playAction "MedicOther";
+		[_this select 1, 1, _this select 3] call plank_deploy_fnc_addFortificationAction;
 		deleteVehicle (_this select 0);
-	}
+	},
+	_fortIdx,
+	1,
+	false,
+	false,
+	"",
+	"vehicle player == player"
 ];

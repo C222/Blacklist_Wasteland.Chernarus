@@ -209,7 +209,7 @@ plank_deploy_fnc_addFortificationAction = {
 
     if (_count > 0 && {_unit getVariable ["plank_deploy_fortIndex", -1] != _fortIndex}) then {
         private ["_actionId", "_fortActionIds"];
-        _actionId = _unit addAction [format ["Place %1 (%2 left)", GET_FORT_DISPLAY_NAME(_fortIndex), _count], "plank\place_fort_action.sqf", [_fortIndex], _fortIndex + 50, false, false, "", "driver _target == _this"];
+        _actionId = _unit addAction [format ["Place %1", GET_FORT_DISPLAY_NAME(_fortIndex), _count], "plank\place_fort_action.sqf", [_fortIndex], _fortIndex + 50, false, false, "", "driver _target == _this"];
         _fortActionIds = _unit getVariable ["plank_deploy_fortActionIds", []];
         _fortActionIds set [_fortIndex, _actionId];
     };

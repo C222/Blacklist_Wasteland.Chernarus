@@ -41,6 +41,10 @@ class util
 		{
 			file = "util\magazinesFor.sqf";
 		};
+		class pickOne
+		{
+			file = "util\pickOne.sqf";
+		};
 	};
 };
 
@@ -103,6 +107,10 @@ class plank
 		class makePickupable
 		{
 			file = "plank\makePickupable.sqf";
+		};
+		class spawnForts
+		{
+			file = "plank\spawnForts.sqf";
 		};
 	};
 };
