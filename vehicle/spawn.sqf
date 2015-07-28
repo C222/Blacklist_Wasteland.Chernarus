@@ -17,14 +17,18 @@ _vehicle = _vehicles select _chosenIdx;
 
 // diag_log format ["%1", _vehicle];
 // diag_log format ["%1", _markerName];
+_spawnPos = [];
 
-_offset = [_radius] call util_fnc_randRadius;
+while {(count _spawnPos) < 3} do
+{
+	_offset = [_radius] call util_fnc_randRadius;
 
-_xPos = (_mPos select 0) + (_offset select 0);
-_yPos = (_mPos select 1) + (_offset select 1);
-_mPos = [_xPos, _yPos, (_mPos select 2)];
+	_xPos = (_mPos select 0) + (_offset select 0);
+	_yPos = (_mPos select 1) + (_offset select 1);
+	_mPos = [_xPos, _yPos, (_mPos select 2)];
 
-_spawnPos = _mPos findEmptyPosition [0, 50, _vehicle];
+	_spawnPos = _mPos findEmptyPosition [0, 50, _vehicle];
+};
 // _spawnPos = [_mPos, _radius, 20] call util_fnc_safeSpot;
 
 spawnedV = _vehicle createVehicle _spawnPos;
