@@ -95,3 +95,14 @@ class client
 		};
 	};
 };
+
+class plank
+{
+	class common
+	{
+		class makePickupable
+		{
+			file = "plank\makePickupable.sqf";
+		};
+	};
+};
