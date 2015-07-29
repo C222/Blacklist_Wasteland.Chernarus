@@ -1,5 +1,5 @@
-array = _this select 0;
+_array = _this select 0;
 
-idx = floor random count array;
+_idx = floor random count _array;
 
-[array select idx, idx]
+[_array select _idx, _idx]

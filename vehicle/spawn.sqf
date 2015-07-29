@@ -31,14 +31,14 @@ while {(count _spawnPos) < 3} do
 };
 // _spawnPos = [_mPos, _radius, 20] call util_fnc_safeSpot;
 
-spawnedV = _vehicle createVehicle _spawnPos;
-spawnedV setDir random 360;
-[spawnedV] call vehicle_fnc_giveLoadout;
-[spawnedV, _type, _place] spawn server_fnc_vehicleWatcher;
+_spawnedV = _vehicle createVehicle _spawnPos;
+_spawnedV setDir random 360;
+[_spawnedV] call vehicle_fnc_giveLoadout;
+[_spawnedV, _type, _place] spawn server_fnc_vehicleWatcher;
 
-// _spawnedM = createMarker [format ["Marker_%1_%2", _iter, _type], _spawnPos];
-// _spawnedM setMarkerShape "ICON";
-// _spawnedM setMarkerType (["hd_dot", "hd_end", "hd_destroy", "hd_flag"] select _type);
+_spawnedM = createMarker [format ["Marker_%1_%2", _iter, _type], _spawnPos];
+_spawnedM setMarkerShape "ICON";
+_spawnedM setMarkerType (["hd_dot", "hd_end", "hd_destroy", "hd_flag"] select _type);
 // _spawnedM setMarkerText format ["%1", _vehicle];
 
-spawnedV
+_spawnedV

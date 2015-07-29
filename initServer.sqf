@@ -12,25 +12,30 @@ diag_log format ["Towns are: %1", [] call config_fnc_getTowns select 0];
 
 diag_log format ["Spawning Vehicles"];
 
-for "_x" from 1 to (vehicleCount select 0) do
+for "_spawnCounter" from 1 to (vehicleCount select 0) do
 {
-	[_x, 0, 0] call vehicle_fnc_spawn;
+	// diag_log format ["%1", _spawnCounter];
+	[_spawnCounter, 0, 0] call vehicle_fnc_spawn;
 };
-for "_x" from 1 to (vehicleCount select 1) do
+for "_spawnCounter" from 1 to (vehicleCount select 1) do
 {
-	[_x, 1, 0] call vehicle_fnc_spawn;
+	// diag_log format ["%1", _spawnCounter];
+	[_spawnCounter, 1, 0] call vehicle_fnc_spawn;
 };
-for "_x" from 1 to (vehicleCount select 2) do
+for "_spawnCounter" from 1 to (vehicleCount select 2) do
 {
-	[_x, 2, 0] call vehicle_fnc_spawn;
+	// diag_log format ["%1", _spawnCounter];
+	[_spawnCounter, 2, 0] call vehicle_fnc_spawn;
 };
-for "_x" from 1 to (vehicleCount select 3) do
+for "_spawnCounter" from 1 to (vehicleCount select 3) do
 {
-	[_x, 3, 2] call vehicle_fnc_spawn;
+	// diag_log format ["%1", _spawnCounter];
+	[_spawnCounter, 3, 2] call vehicle_fnc_spawn;
 };
-for "_x" from 1 to 300 do
+for "_spawnCounter" from 1 to 300 do
 {
-	[_x, 0] call plank_fnc_spawnForts;
+	// diag_log format ["%1", _spawnCounter];
+	[_spawnCounter, 0] call plank_fnc_spawnForts;
 };
 
 diag_log format ["Spawning server agents."];

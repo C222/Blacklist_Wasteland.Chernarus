@@ -11,9 +11,9 @@ while {_safety < _threshold} do
 	_xPos = (_center select 0) + (_offset select 0);
 	_yPos = (_center select 1) + (_offset select 1);
 	
-	finalPos = [_xPos, _yPos, (_center select 2)];
+	_finalPos = [_xPos, _yPos, (_center select 2)];
 
-	_safety = (nearestObject [finalPos, "Building"]) distance finalPos; //(nearestBuilding thePlayer) distance thePlayer;
+	_safety = (nearestObject [_finalPos, "Building"]) distance _finalPos; //(nearestBuilding thePlayer) distance thePlayer;
 };
 
-finalPos
+_finalPos
