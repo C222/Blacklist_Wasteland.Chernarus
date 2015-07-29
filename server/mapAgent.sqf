@@ -12,9 +12,9 @@ while {true} do
 		
 		_sides = [];
 		
-		if ((count _players) > 0) then {diag_log format ["---Looking at %1:", _mName];};
+		// if ((count _players) > 0) then {diag_log format ["---Looking at %1:", _mName];};
 		{
-			diag_log format ["%1 is %2 in %3", name _x, side _x, typeOf vehicle _x];
+			// diag_log format ["%1 is %2 in %3", name _x, side _x, typeOf vehicle _x];
 			_sides = _sides + [side _x];
 			sleep 0.0001;
 		} forEach _players;

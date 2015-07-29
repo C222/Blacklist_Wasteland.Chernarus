@@ -15,7 +15,7 @@ if (side player == east) then
 ["iconAgent", "onEachFrame",
 {
 	 {
-		if ((side _x == side player) and (true)) then
+		if ((side _x == side player) and (_x != player)) then
 		{
 			_icon = [vehicle _x] call util_fnc_vehicleIcon;
 			_fpos = getPos _x;
