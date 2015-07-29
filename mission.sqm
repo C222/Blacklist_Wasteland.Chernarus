@@ -33,7 +33,7 @@ class Mission
 	randomSeed=11986584;
 	class Intel
 	{
-		briefingName="Blacklist Wasteland - Chernarus [v0.0.1]";
+		briefingName="Blacklist Wasteland - Chernarus [v0.6.0]";
 		resistanceWest=0;
 		startWeather=0.1;
 		startWind=0.1;
@@ -227,7 +227,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=91;
+		items=92;
 		class Item0
 		{
 			position[]={10511.01,6,2268.4426};
@@ -1102,6 +1102,12 @@ class Mission
 		{
 			position[]={-602.75488,347.617,14109.391};
 			name="respawn_guerilla";
+			type="Empty";
+		};
+		class Item91
+		{
+			position[]={-853.44855,94.386398,2009.7968};
+			name="debug";
 			type="Empty";
 		};
 	};

@@ -3,7 +3,8 @@
 
 #include "plank\plank.hpp"
 
-onLoadMission = "Blacklist Wasteland [v0.0.1]";
+version = "0.6.0";
+onLoadMission = "Blacklist Wasteland [0.6.0]";
 respawn = "BASE";
 disabledAI = 1;
 
