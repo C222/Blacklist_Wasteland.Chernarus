@@ -45,6 +45,10 @@ class util
 		{
 			file = "util\pickOne.sqf";
 		};
+		class vehicleIcon
+		{
+			file = "util\vehicleIcon.sqf";
+		};
 	};
 };
 

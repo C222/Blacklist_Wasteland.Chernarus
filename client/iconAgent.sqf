@@ -10,18 +10,21 @@ if (side player == east) then
 	iconColor = [0.7, .05, .05,1];
 };
 
+//"\a3\ui_f\data\gui\cfg\cursors\hc_overfriendly_gs.paa"
+
 ["iconAgent", "onEachFrame",
 {
 	 {
-		if ((side _x == side player) and (_x != player)) then
+		if ((side _x == side player) and (true)) then
 		{
+			_icon = [vehicle _x] call util_fnc_vehicleIcon;
 			_fpos = getPos _x;
 			_fpos set [2, (_fpos select 2) + 1];
 			_size = (1000 - (_x distance player)) / 1000;
 			// hint format ["%1", _size];
-			drawIcon3D ["\a3\ui_f\data\gui\cfg\cursors\hc_overfriendly_gs.paa",
+			drawIcon3D [_icon,
 			iconColor,
-			_fpos, _size, _size, 45, "", 1, 0.05, "TahomaB"];
+			_fpos, _size, _size, 0, "", 1, 0.05, "TahomaB"];
 		};
 	} forEach ([getPos player, 1000] call util_fnc_playersWithin); 
 }
