@@ -6,6 +6,7 @@ diag_log format ["WASTELAND SERVER - Initilizing Server"];
 diag_log format ["Towns are: %1", [] call config_fnc_getTowns select 0];
 
 call compile preprocessFileLineNumbers "plank\plank_init.sqf";
+call compile preprocessFileLineNumbers "plank\arma3_fortifications.sqf";
 
 {
 	// diag_log format ["Hiding: %1", _x];
