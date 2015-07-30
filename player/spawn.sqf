@@ -2,6 +2,12 @@ _thePlayer = _this select 0;
 
 _thePlayer setPos [-20000 - (random 10000), 5000 + random 15000, 0];
 
+removeGoggles _thePlayer;
+removeAllWeapons _thePlayer;
+removeAllContainers _thePlayer;
+// removeAllAssignedItems _thePlayer;
+removeHeadgear _thePlayer;
+
 chosen = false;
 
 _ok = createDialog "SPAWN_DIALOG";
@@ -33,11 +39,22 @@ _spawnPos = _mPos findEmptyPosition [0, 10, "CAManBase"];
 
 _thePlayer enableFatigue false;
 
-removeGoggles _thePlayer;
-removeAllWeapons _thePlayer;
-removeAllContainers _thePlayer;
-// removeAllAssignedItems _thePlayer;
-removeHeadgear _thePlayer;
+_thePlayer addAction ["Pick Up",
+	{
+		player playActionNow "MedicOther";
+		_item = (cursorTarget getVariable ["pickupableIdx", -1]);
+		[player, 1, _item] call plank_deploy_fnc_addFortificationAction;
+		deleteVehicle (cursorTarget);
+	},
+	"",
+	1,
+	false,
+	true,
+	"",
+	"(vehicle player == player)
+	and ((cursorTarget getVariable [""pickupableIdx"", -1]) >= 0)
+	and ((player distance cursorTarget) < 10)"
+];
 
 _uniform = _uniforms select floor(random(count _uniforms));
 _vest = _vests select floor(random(count _vests));
