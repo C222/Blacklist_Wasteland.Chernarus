@@ -3,20 +3,7 @@ class Mission
 {
 	addOns[]=
 	{
-		"cacharacters2",
-		"cacharacters_e",
-		"ca_modules_functions",
-		"cacharacters_pmc",
 		"chernarus",
-		"camisc3",
-		"caweapons_ammoboxes",
-		"cabuildings",
-		"cacharacters_baf",
-		"CAAir_E_UH1H_EP1",
-		"CAAir_BAF",
-		"CAAir_E_AH6J",
-		"CAWater",
-		"cawater2_fishing_boat",
 		"A3_Characters_F_Kart",
 		"aia_chernarus_config",
 		"rhs_cti_insurgents",
