@@ -49,6 +49,10 @@ class util
 		{
 			file = "util\vehicleIcon.sqf";
 		};
+		class getSidesIn
+		{
+			file = "util\getSidesIn.sqf";
+		};
 	};
 };
 
