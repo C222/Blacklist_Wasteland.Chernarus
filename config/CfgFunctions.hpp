@@ -64,6 +64,10 @@ class player
 		{
 			file = "player\spawn.sqf";
 		};
+		class friendlyTowns
+		{
+			file = "player\friendlyTowns.sqf";
+		};
 	};
 };
 

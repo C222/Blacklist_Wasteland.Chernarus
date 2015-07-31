@@ -1095,7 +1095,11 @@ class Mission
 		{
 			position[]={-853.44855,94.386398,2009.7968};
 			name="debug";
+			text="Debug";
+			markerType="ELLIPSE";
 			type="Empty";
+			a=20;
+			b=20;
 		};
 	};
 };

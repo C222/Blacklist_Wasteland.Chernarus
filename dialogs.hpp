@@ -3,46 +3,57 @@
 ////////////////////////////////////////////////////////
 class SPAWN_DIALOG
 {
-	idd = -1;
+	idd = 1992;
 	movingenable = true;
+	onLoad="uiNamespace setVariable ['SPAWN_DIALOG', _this select 0]";
 	class Controls
 	{
 		class SPAWN_DIALOG_box: BOX
 		{
 			idc = 1801;
-			x = 0.384700 * safezoneW + safezoneX;
-			y = 0.290476 * safezoneH + safezoneY;
-			w = 0.247905 * safezoneW;
-			h = 0.396238 * safezoneH;
+			x = 0.25 * safezoneW + safezoneX;
+			y = 0.25 * safezoneH + safezoneY;
+			w = 0.5 * safezoneW;
+			h = 0.5 * safezoneH;
 		};
 		class SPAWN_DIALOG_frame: RscFrame
 		{
 			idc = 1800;
 			text = "Spawn"; //--- ToDo: Localize;
-			x = 0.384700 * safezoneW + safezoneX;
-			y = 0.290476 * safezoneH + safezoneY;
-			w = 0.247905 * safezoneW;
-			h = 0.396238 * safezoneH;
+			x = 0.25 * safezoneW + safezoneX;
+			y = 0.25 * safezoneH + safezoneY;
+			w = 0.5 * safezoneW;
+			h = 0.5 * safezoneH;
 		};
 		class SPAWN_DIALOG_ground: RscButton
 		{
 			idc = 1600;
 			text = "Ground"; //--- ToDo: Localize;
-			x = 0.445239 * safezoneW + safezoneX;
-			y = 0.625713 * safezoneH + safezoneY;
-			w = 0.0398809 * safezoneW;
-			h = 0.0404761 * safezoneH;
+			x = 0.252 * safezoneW + safezoneX;
+			y = 0.696 * safezoneH + safezoneY;
+			w = 0.05 * safezoneW;
+			h = 0.05 * safezoneH;
 			action = "closeDialog 0; parachute = false; chosen = true";
 		};
 		class SPAWN_DIALOG_parachute: RscButton
 		{
 			idc = 1601;
 			text = "Parachute"; //--- ToDo: Localize;
-			x = 0.533334 * safezoneW + safezoneX;
-			y = 0.625715 * safezoneH + safezoneY;
-			w = 0.0398809 * safezoneW;
-			h = 0.0404761 * safezoneH;
+			x = 0.252 * safezoneW + safezoneX;
+			y = 0.642 * safezoneH + safezoneY;
+			w = 0.05 * safezoneW;
+			h = 0.05 * safezoneH;
 			action="closeDialog 0; parachute = true; chosen = true";
+		};
+		class SPAWN_DIALOG_droplist: RscListbox
+		{
+			idc = 1602;
+			text = "asdf"; //--- ToDo: Localize;
+			x = 0.35 * safezoneW + safezoneX;
+			y = 0.28 * safezoneH + safezoneY;
+			w = 0.1 * safezoneW;
+			h = 0.45 * safezoneH;
+			onLBDblClick = "_idx = _this select 1; friendlySpawn = true;spawnTown = lbText [1602, _idx]; closeDialog 0;";
 		};
 		////////////////////////////////////////////////////////
 		// GUI EDITOR OUTPUT END

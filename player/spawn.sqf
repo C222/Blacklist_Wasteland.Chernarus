@@ -12,20 +12,36 @@ chosen = false;
 
 _ok = createDialog "SPAWN_DIALOG";
 
-waitUntil {chosen};
+_fTowns = ([_thePlayer] call player_fnc_friendlyTowns) + ["debug", "kamenka"];
+spawnTown = "None Chosen";
+parachute = false;
+
+{
+	lbAdd [1602, _x];
+} forEach _fTowns;
+
+waitUntil {!dialog};
 
 _towns = [] call config_fnc_getTowns select 0;
 _gear = [side _thePlayer] call config_fnc_getGear;
 _uniforms = _gear select 0;
 _vests = _gear select 1;
 
-_chosenIdx = random ((count _towns) - 1);
-_markerName = _towns select _chosenIdx;
+if (friendlySpawn) then
+{
+	_markerName = spawnTown;
+} else
+{
+	_chosenIdx = random ((count _towns) - 1);
+	_markerName = _towns select _chosenIdx;
+};
 
 _mPos = markerPos _markerName;
 _mSize = markerSize _markerName;
 
 _radius  = (_mSize select 0);
+
+// hint ["%1, %2, %3", spawnTown, _mPos, _radius];
 
 // _spawnPos = [_mPos, _radius, 10] call util_fnc_safeSpot;
 
@@ -85,6 +101,8 @@ _min  = _now select 4;
 	"Chernarus",
 	format ["%1-%2-%3 | %4:%5", _year, _month, _day, _hour, _min]
 ] spawn BIS_fnc_infoText;
+
+// diag_log format["%1", [_thePlayer] call player_fnc_friendlyTowns];
 
 // _veh = createVehicle ["Steerable_Parachute_F", _spawnPos, [], 0, "FLY"];
 // player moveInDriver _veh;

@@ -96,6 +96,47 @@
 //Base Classes//
 ////////////////
 
+class RscLB_C
+{
+	style                   = ST_LEFT;
+	idc                     = -1;
+	colorText[] = {0.9,0.9,0.9,1};
+    colorDisabled[] = {0.6,0.6,0.6,0};
+    colorBackground[] = {0.35,0.35,0.35,0.9};
+    colorBackgroundDisabled[] = {0,0.0,0};
+    colorBackgroundActive[] = {0.55,0.55,0.55,0.7};
+    colorSelect[] = {0.75,0.75,0.75,.5};
+    colorShadow[] = {0.023529,0,0.0313725,1};
+    colorBorder[] = {0.023529,0,0.0313725,1};
+	colorScrollbar[] 	= {Dlg_Color_White,1};
+	font                    = "PuristaMedium";
+	sizeEx                  = 0.025;
+	rowHeight               = 0.04;
+	period 			= 1.200000;
+	maxHistoryDelay 	= 1.000000;
+	autoScrollSpeed 	= -1;
+	autoScrollDelay 	= 5;
+	autoScrollRewind 	= 0;
+	class ListScrollBar
+	{
+		color[] = {1,1,1,1};
+		autoScrollEnabled = 1;
+		
+		colorActive[] = {1, 1, 1, 1};
+		colorDisabled[] = {1, 1, 1, 0.3};
+		thumb = "\A3\ui_f\data\gui\cfg\scrollbar\thumb_ca.paa";
+		arrowFull = "\A3\ui_f\data\gui\cfg\scrollbar\arrowFull_ca.paa";
+		arrowEmpty = "\A3\ui_f\data\gui\cfg\scrollbar\arrowEmpty_ca.paa";
+		border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
+	};
+};
+
+class RscListBox: RscLB_C
+{
+	soundSelect[] = {"", 0.1, 1};
+	type = CT_LISTBOX;
+};
+
 class RscText
 {
     access = 0;
