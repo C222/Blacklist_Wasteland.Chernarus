@@ -8,34 +8,36 @@ removeAllContainers _thePlayer;
 // removeAllAssignedItems _thePlayer;
 removeHeadgear _thePlayer;
 
-chosen = false;
-
+player setVariable ["parachuteIn", false];
+player setVariable ["friendlySpawn", "false"];
 _ok = createDialog "SPAWN_DIALOG";
 
-_fTowns = ([_thePlayer] call player_fnc_friendlyTowns) + ["debug", "kamenka"];
-spawnTown = "None Chosen";
-parachute = false;
-
+while {dialog} do
 {
-	lbAdd [1602, _x];
-} forEach _fTowns;
-
-waitUntil {!dialog};
+	_fTowns = ([_thePlayer] call player_fnc_friendlyTowns) + ["debug", "kamenka"];
+	
+	lbClear 1602;
+	{
+		_idx = lbAdd [1602, markerText _x];
+		lbSetData [1602, _idx, _x];
+	} forEach _fTowns;
+	sleep 1;
+};
 
 _towns = [] call config_fnc_getTowns select 0;
 _gear = [side _thePlayer] call config_fnc_getGear;
 _uniforms = _gear select 0;
 _vests = _gear select 1;
 
-if (friendlySpawn) then
+_markerName = "";
+if ((player getVariable "friendlySpawn") != "false") then
 {
-	_markerName = spawnTown;
+	_markerName = (player getVariable "friendlySpawn");
 } else
 {
 	_chosenIdx = random ((count _towns) - 1);
 	_markerName = _towns select _chosenIdx;
 };
-
 _mPos = markerPos _markerName;
 _mSize = markerSize _markerName;
 
@@ -78,7 +80,7 @@ _vest = _vests select floor(random(count _vests));
 _thePlayer forceAddUniform _uniform;
 _thePlayer addVest _vest;
 
-if (parachute) then
+if (player getVariable "parachuteIn") then
 {
 	_spawnPos set [2, 1000];
 	_thePlayer addBackpack "B_Parachute";

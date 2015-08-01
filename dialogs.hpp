@@ -33,7 +33,7 @@ class SPAWN_DIALOG
 			y = 0.696 * safezoneH + safezoneY;
 			w = 0.05 * safezoneW;
 			h = 0.05 * safezoneH;
-			action = "closeDialog 0; parachute = false; chosen = true";
+			action = "closeDialog 0;";
 		};
 		class SPAWN_DIALOG_parachute: RscButton
 		{
@@ -43,7 +43,7 @@ class SPAWN_DIALOG
 			y = 0.642 * safezoneH + safezoneY;
 			w = 0.05 * safezoneW;
 			h = 0.05 * safezoneH;
-			action="closeDialog 0; parachute = true; chosen = true";
+			action="closeDialog 0; player setVariable [""parachuteIn"", true];";
 		};
 		class SPAWN_DIALOG_droplist: RscListbox
 		{
@@ -53,7 +53,7 @@ class SPAWN_DIALOG
 			y = 0.28 * safezoneH + safezoneY;
 			w = 0.1 * safezoneW;
 			h = 0.45 * safezoneH;
-			onLBDblClick = "_idx = _this select 1; friendlySpawn = true;spawnTown = lbText [1602, _idx]; closeDialog 0;";
+			onLBDblClick = "closeDialog 0; _idx = _this select 1; player setVariable [""friendlySpawn"", lbData [1602, _idx]];";
 		};
 		////////////////////////////////////////////////////////
 		// GUI EDITOR OUTPUT END

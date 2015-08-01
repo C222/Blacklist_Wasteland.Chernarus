@@ -3,10 +3,14 @@
 
 #include "plank\plank.hpp"
 
-version = "0.6.0";
-onLoadMission = "Blacklist Wasteland [0.6.1]";
+version = "0.7.0";
+onLoadMission = "Blacklist Wasteland [0.7.0] - Chernarus";
 respawn = "BASE";
 disabledAI = 1;
+author = "C222";
+saving = 0;
+
+respawnTemplates[] = {"Revive"};
 
 class CfgFunctions
 {
