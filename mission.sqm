@@ -8,13 +8,15 @@ class Mission
 		"aia_chernarus_config",
 		"rhs_cti_insurgents",
 		"rhsusf_c_troops",
-		"rhs_c_troops"
+		"rhs_c_troops",
+		"A3_Signs_F_AD"
 	};
 	addOnsAuto[]=
 	{
 		"rhs_cti_insurgents",
 		"rhsusf_c_troops",
 		"rhs_c_troops",
+		"A3_Signs_F_AD",
 		"aia_chernarus_config"
 	};
 	randomSeed=11986584;
@@ -210,6 +212,20 @@ class Mission
 					init="this disableAI ""TARGET"";this disableAI ""AUTOTARGET"";this disableAI ""MOVE"";";
 				};
 			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={1943.8864,6.0133948,2242.3181};
+			azimut=-149.661;
+			id=9;
+			side="EMPTY";
+			vehicle="SignAd_Sponsor_F";
+			skill=0.60000002;
+			init="this setObjectTextureGlobal [0,""images\imcrazybitch.jpg""]";
 		};
 	};
 	class Markers

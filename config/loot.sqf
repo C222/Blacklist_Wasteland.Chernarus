@@ -43,7 +43,7 @@
 	// Pistols
 	["rhs_weap_makarov_pmm", "rhsusf_weap_m1911a1"],
 	// Items
-	["ItemGPS", "FirstAidKit", "rhs_pdu4", "rhs_tr8_periscope_pip", "lerca_1200_black", "lerca_1200_tan"],
+	["ItemGPS", "ItemGPS", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "rhs_pdu4", "rhs_tr8_periscope_pip", "lerca_1200_black", "lerca_1200_tan", "Medikit", "ToolKit"],
 	// Launchers
 	["rhs_weap_fim92", "rhs_weap_fgm148", "rhs_weap_rpg7", "rhs_weap_rpg7_pgo", "rhs_weap_rpg7_1pn93", "rhs_weap_igla"]
 ]
