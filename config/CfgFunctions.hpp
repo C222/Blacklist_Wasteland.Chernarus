@@ -139,5 +139,9 @@ class missions
 		{
 			file = "missions\simpleTruck.sqf";
 		};
+		class makeEnemies
+		{
+			file = "missions\makeEnemies.sqf";
+		};
 	};
 };

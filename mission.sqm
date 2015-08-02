@@ -225,7 +225,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0,""images\imcrazybitch.jpg""]";
+			init="this setObjectTextureGlobal [0,""images\blacklist_icon.paa""]";
 		};
 		class Item1
 		{
