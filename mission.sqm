@@ -216,12 +216,22 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1;
+		items=2;
 		class Item0
 		{
 			position[]={1943.8864,6.0133948,2242.3181};
 			azimut=-149.661;
 			id=9;
+			side="EMPTY";
+			vehicle="SignAd_Sponsor_F";
+			skill=0.60000002;
+			init="this setObjectTextureGlobal [0,""images\imcrazybitch.jpg""]";
+		};
+		class Item1
+		{
+			position[]={6538.6753,6.005197,2806.6758};
+			azimut=-225.10072;
+			id=10;
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;

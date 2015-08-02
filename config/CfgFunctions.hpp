@@ -98,6 +98,10 @@ class server
 		{
 			file = "server\vehicleWatcher.sqf";
 		};
+		class missionAgent
+		{
+			file = "server\missionAgent.sqf";
+		};
 	};
 };
 
@@ -123,6 +127,17 @@ class plank
 		class spawnForts
 		{
 			file = "plank\spawnForts.sqf";
+		};
+	};
+};
+
+class missions
+{
+	class common
+	{
+		class simpleTruck
+		{
+			file = "missions\simpleTruck.sqf";
 		};
 	};
 };

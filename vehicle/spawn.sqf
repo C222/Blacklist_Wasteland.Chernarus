@@ -36,9 +36,9 @@ _spawnedV setDir random 360;
 [_spawnedV] call vehicle_fnc_giveLoadout;
 [_spawnedV, _type, _place] spawn server_fnc_vehicleWatcher;
 
-_spawnedM = createMarker [format ["Marker_%1_%2", _iter, _type], _spawnPos];
-_spawnedM setMarkerShape "ICON";
-_spawnedM setMarkerType (["hd_dot", "hd_end", "hd_destroy", "hd_flag"] select _type);
+// _spawnedM = createMarker [format ["Marker_%1_%2", _iter, _type], _spawnPos];
+// _spawnedM setMarkerShape "ICON";
+// _spawnedM setMarkerType (["hd_dot", "hd_end", "hd_destroy", "hd_flag"] select _type);
 // _spawnedM setMarkerText format ["%1", _vehicle];
 
 _spawnedV

@@ -48,7 +48,7 @@ class SPAWN_DIALOG
 		class SPAWN_DIALOG_droplist: RscListbox
 		{
 			idc = 1602;
-			text = "asdf"; //--- ToDo: Localize;
+			text = ""; //--- ToDo: Localize;
 			x = 0.35 * safezoneW + safezoneX;
 			y = 0.28 * safezoneH + safezoneY;
 			w = 0.1 * safezoneW;
