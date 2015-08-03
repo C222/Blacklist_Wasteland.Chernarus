@@ -22,7 +22,8 @@ _man2 addMagazine "rhs_10Rnd_762x54mmR_7N1";
 _man2 addMagazine "rhs_10Rnd_762x54mmR_7N1";
 _man2 addMagazine "rhs_10Rnd_762x54mmR_7N1";
 _man2 addMagazine "rhs_10Rnd_762x54mmR_7N1";
-_man2 addWeapon "rhs_weap_svds_pso1";};
+_man2 addWeapon "rhs_weap_svds_pso1";
+};
 
 if (_size >= 3) then {
 _man3 = _g createUnit ["C_Driver_1_red_F", [(_pos select 0), (_pos select 1) + 10, 0], [], 1, "FORM"];
@@ -32,7 +33,8 @@ _man3 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man3 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man3 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man3 addMagazine "rhs_30Rnd_545x39_7N10_AK";
-_man3 addWeapon "rhs_weap_ak74m_dtk";};
+_man3 addWeapon "rhs_weap_ak74m_dtk";
+};
 
 if (_size >= 4) then {
 _man4 = _g createUnit ["C_Driver_1_white_F", [(_pos select 0), (_pos select 1) + 10, 0], [], 1, "FORM"];
@@ -42,7 +44,8 @@ _man4 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man4 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man4 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man4 addMagazine "rhs_30Rnd_545x39_7N10_AK";
-_man4 addWeapon "rhs_weap_ak74m_dtk";};
+_man4 addWeapon "rhs_weap_ak74m_dtk";
+};
 
 if (_size >= 5) then {
 _man5 = _g createUnit ["C_Driver_1_yellow_F", [(_pos select 0), (_pos select 1) + 10, 0], [], 1, "FORM"];
@@ -52,7 +55,8 @@ _man5 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man5 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man5 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man5 addMagazine "rhs_30Rnd_545x39_7N10_AK";
-_man5 addWeapon "rhs_weap_ak74m_dtk";};
+_man5 addWeapon "rhs_weap_ak74m_dtk";
+};
 
 if (_size >= 6) then {
 _man6 = _g createUnit ["C_Driver_1_orange_F", [(_pos select 0), (_pos select 1) + 10, 0], [], 1, "FORM"];
@@ -61,7 +65,8 @@ _man6 addBackpack "B_Carryall_cbr";
 _man6 addMagazine "rhs_mag_rgd5";
 _man6 addMagazine "rhs_mag_rgd5";
 _man6 addMagazine "rhs_mag_rgd5";
-_man6 addWeapon "rhs_weap_pkp_1p29";};
+_man6 addWeapon "rhs_weap_pkp_1p29";
+};
 
 if (_size >= 7) then {
 _man7 = _g createUnit ["C_Driver_3_F", [(_pos select 0), (_pos select 1) + 10, 0], [], 1, "FORM"];
@@ -71,7 +76,8 @@ _man7 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man7 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man7 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man7 addMagazine "rhs_30Rnd_545x39_7N10_AK";
-_man7 addWeapon "rhs_weap_ak74m_gp25_1p63";};
+_man7 addWeapon "rhs_weap_ak74m_gp25_1p63";
+};
 
 if (_size >= 8) then {
 _man8 = _g createUnit ["C_Driver_3_F", [(_pos select 0), (_pos select 1) + 10, 0], [], 1, "FORM"];
@@ -81,7 +87,8 @@ _man8 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man8 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man8 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man8 addMagazine "rhs_30Rnd_545x39_7N10_AK";
-_man8 addWeapon "rhs_weap_ak74m_gp25_1p63";};
+_man8 addWeapon "rhs_weap_ak74m_gp25_1p63";
+};
 
 if (_size >= 9) then {
 _man9 = _g createUnit ["C_Driver_3_F", [(_pos select 0), (_pos select 1) + 10, 0], [], 1, "FORM"];
@@ -91,7 +98,11 @@ _man9 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man9 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man9 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man9 addMagazine "rhs_30Rnd_545x39_7N10_AK";
-_man9 addWeapon "rhs_weap_ak74m_gp25_1p63";};
+_man9 addWeapon "rhs_weap_ak74m_gp25_1p63";
+};
 
-_g setLeader _man1;
+_g selectLeader _man1;
 [_g, _pos] call BIS_fnc_taskDefend;
+
+diag_log format ["%1", _g];
+_g

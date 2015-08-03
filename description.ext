@@ -3,8 +3,8 @@
 
 #include "plank\plank.hpp"
 
-version = "0.7.1";
-onLoadMission = "Blacklist Wasteland [0.7.1] - Chernarus";
+version = "0.8.0";
+onLoadMission = "Blacklist Wasteland [0.8.0] - Chernarus";
 respawn = "BASE";
 disabledAI = 1;
 author = "C222";
@@ -17,4 +17,7 @@ class CfgFunctions
 	#include "config\CfgFunctions.hpp"
 };
 
-class CfgRemoteExecCommands {};
+class CfgRemoteExecCommands
+{
+	class hint {};
+};

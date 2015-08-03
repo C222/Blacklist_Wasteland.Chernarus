@@ -53,6 +53,10 @@ class util
 		{
 			file = "util\getSidesIn.sqf";
 		};
+		class groupDead
+		{
+			file = "util\groupDead.sqf";
+		};
 	};
 };
 
