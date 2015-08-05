@@ -19,6 +19,8 @@ CIVILIAN setFriend [RESISTANCE, 0];
 _lastMissionTime = time;
 _lastMissionHandle = 0 spawn {};
 
+_missions = [missions_fnc_simpleTruck, missions_fnc_simpleHeli];
+
 // systemChat "Starting Missions";
 while {true} do
 {
@@ -26,7 +28,8 @@ while {true} do
 	if (scriptDone _lastMissionHandle) then
 	{
 		sleep 60;
-		_lastMissionHandle = [] spawn missions_fnc_simpleTruck;
+		_mission = ([_missions] call util_fnc_pickOne) select 0;
+		_lastMissionHandle = [] spawn _mission;
 	};
 	sleep 5;
 };

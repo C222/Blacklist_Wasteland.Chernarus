@@ -13,6 +13,7 @@ _man1 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man1 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man1 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man1 addWeapon "rhs_weap_ak74m_1p29";
+_man1 allowFleeing 0;
 
 if (_size >= 2) then {
 _man2 = _g createUnit ["C_Driver_1_green_F", [(_pos select 0), (_pos select 1) + 10, 0], [], 1, "FORM"];
@@ -23,6 +24,7 @@ _man2 addMagazine "rhs_10Rnd_762x54mmR_7N1";
 _man2 addMagazine "rhs_10Rnd_762x54mmR_7N1";
 _man2 addMagazine "rhs_10Rnd_762x54mmR_7N1";
 _man2 addWeapon "rhs_weap_svds_pso1";
+_man2 allowFleeing 0;
 };
 
 if (_size >= 3) then {
@@ -34,6 +36,7 @@ _man3 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man3 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man3 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man3 addWeapon "rhs_weap_ak74m_dtk";
+_man3 allowFleeing 0;
 };
 
 if (_size >= 4) then {
@@ -45,6 +48,7 @@ _man4 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man4 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man4 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man4 addWeapon "rhs_weap_ak74m_dtk";
+_man4 allowFleeing 0;
 };
 
 if (_size >= 5) then {
@@ -56,6 +60,7 @@ _man5 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man5 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man5 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man5 addWeapon "rhs_weap_ak74m_dtk";
+_man5 allowFleeing 0;
 };
 
 if (_size >= 6) then {
@@ -66,6 +71,7 @@ _man6 addMagazine "rhs_mag_rgd5";
 _man6 addMagazine "rhs_mag_rgd5";
 _man6 addMagazine "rhs_mag_rgd5";
 _man6 addWeapon "rhs_weap_pkp_1p29";
+_man6 allowFleeing 0;
 };
 
 if (_size >= 7) then {
@@ -77,6 +83,7 @@ _man7 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man7 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man7 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man7 addWeapon "rhs_weap_ak74m_gp25_1p63";
+_man7 allowFleeing 0;
 };
 
 if (_size >= 8) then {
@@ -88,6 +95,7 @@ _man8 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man8 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man8 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man8 addWeapon "rhs_weap_ak74m_gp25_1p63";
+_man8 allowFleeing 0;
 };
 
 if (_size >= 9) then {
@@ -99,6 +107,7 @@ _man9 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man9 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man9 addMagazine "rhs_30Rnd_545x39_7N10_AK";
 _man9 addWeapon "rhs_weap_ak74m_gp25_1p63";
+_man9 allowFleeing 0;
 };
 
 _g selectLeader _man1;

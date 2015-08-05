@@ -48,7 +48,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-1041.748,29.769714,1723.6154};
+					position[]={-3834.4739,382.72668,9839.9814};
 					id=0;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -67,7 +67,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-696.37817,29.909517,1724.359};
+					position[]={-3489.104,382.85876,9840.7256};
 					id=1;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -86,7 +86,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-331.27759,27.054668,1708.9305};
+					position[]={-3124.0039,380.0542,9825.2959};
 					id=2;
 					side="EAST";
 					vehicle="rhs_msv_rifleman";
@@ -107,7 +107,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-1052.3495,95.635796,2017.8066};
+					position[]={-3845.0754,413.50388,10134.173};
 					id=3;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -126,7 +126,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-706.97961,95.746849,2018.5503};
+					position[]={-3499.7056,413.5632,10134.915};
 					id=4;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -145,7 +145,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-341.87903,93.282814,2003.1218};
+					position[]={-3134.605,412.4425,10119.487};
 					id=5;
 					side="EAST";
 					vehicle="rhs_msv_rifleman";
@@ -164,7 +164,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-1047.0488,124.75164,2354.3994};
+					position[]={-3839.7747,444.30524,10470.767};
 					id=6;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -183,7 +183,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-701.67908,124.67682,2355.1431};
+					position[]={-3494.4058,444.3587,10471.509};
 					id=7;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -202,7 +202,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-336.57849,126.42346,2339.7146};
+					position[]={-3129.3047,443.06262,10456.083};
 					id=8;
 					side="EAST";
 					vehicle="rhs_msv_rifleman";
@@ -221,7 +221,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-1043.0674,41.918526,1777.7166};
+					position[]={-3835.7932,391.57764,9894.083};
 					id=9;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -240,7 +240,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-681.86322,72.740295,1911.7327};
+					position[]={-3474.5894,408.34555,10028.099};
 					id=10;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -259,7 +259,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-347.11197,54.007088,1834.2854};
+					position[]={-3139.8379,401.72711,9950.6514};
 					id=11;
 					side="EAST";
 					vehicle="rhs_msv_rifleman";
@@ -280,7 +280,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-1049.7104,108.63777,2082.4648};
+					position[]={-3842.4358,420.49112,10198.831};
 					id=12;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -299,7 +299,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-700.38196,116.69336,2122.7942};
+					position[]={-3493.1079,425.00504,10239.158};
 					id=13;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -318,7 +318,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-348.47665,108.26054,2080.9756};
+					position[]={-3141.2026,420.28818,10197.339};
 					id=14;
 					side="EAST";
 					vehicle="rhs_msv_rifleman";
@@ -337,7 +337,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-1043.0901,121.56591,2405.8601};
+					position[]={-3835.8157,449.76157,10522.228};
 					id=15;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -356,7 +356,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-704.31812,138.04637,2219.2322};
+					position[]={-3497.0444,428.50586,10335.603};
 					id=16;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -375,7 +375,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-344.4957,138.1609,2211.7202};
+					position[]={-3137.2217,428.05447,10328.087};
 					id=17;
 					side="EAST";
 					vehicle="rhs_msv_rifleman";
@@ -394,7 +394,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-1040.4281,64.006248,1876.6841};
+					position[]={-3833.1536,406.56525,9993.0498};
 					id=18;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -413,7 +413,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-680.54352,49.041656,1811.4502};
+					position[]={-3473.27,397.51932,9927.8154};
 					id=19;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -432,7 +432,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-339.19464,42.767574,1781.507};
+					position[]={-3131.9209,392.19391,9897.8721};
 					id=20;
 					side="EAST";
 					vehicle="rhs_msv_rifleman";
@@ -453,7 +453,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-1031.2368,132.94214,2184.0698};
+					position[]={-3823.9622,427.21872,10300.435};
 					id=21;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -472,7 +472,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-684.5473,121.58508,2405.1755};
+					position[]={-3477.2739,449.66476,10521.543};
 					id=22;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -491,7 +491,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-344.51767,120.46024,2511.1443};
+					position[]={-3137.2437,464.48141,10627.512};
 					id=23;
 					side="EAST";
 					vehicle="rhs_msv_rifleman";
@@ -510,7 +510,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-1037.8119,120.21243,2503.5093};
+					position[]={-3830.5374,463.72845,10619.876};
 					id=24;
 					side="GUER";
 					vehicle="rhs_g_Soldier_lite_F";
@@ -529,7 +529,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-688.4837,119.52352,2484.4602};
+					position[]={-3481.2095,461.81738,10600.829};
 					id=25;
 					side="WEST";
 					vehicle="rhsusf_army_ucp_riflemanl";
@@ -548,7 +548,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-336.57825,121.36147,2414.9307};
+					position[]={-3129.3042,451.11081,10531.298};
 					id=26;
 					side="EAST";
 					vehicle="rhs_msv_rifleman";
@@ -1428,7 +1428,7 @@ class Mission
 		};
 		class Item87
 		{
-			position[]={1159.9103,5.6790853,2509.293};
+			position[]={-1632.8179,464.29852,10625.66};
 			name="Tikhaya";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -1455,7 +1455,7 @@ class Mission
 		};
 		class Item91
 		{
-			position[]={-853.44855,94.386398,2009.7968};
+			position[]={-3646.1748,412.89688,10126.163};
 			name="debug";
 			text="Debug";
 			markerType="ELLIPSE";
@@ -1465,7 +1465,7 @@ class Mission
 		};
 		class Item92
 		{
-			position[]={-708.2998,96.213165,2021.673};
+			position[]={-3501.0259,413.81311,10138.038};
 			name="debug_1";
 			text="Debug";
 			markerType="ELLIPSE";
@@ -1475,7 +1475,7 @@ class Mission
 		};
 		class Item93
 		{
-			position[]={-1193.8882,128.31679,2571.9204};
+			position[]={-3986.614,478.81097,10688.289};
 			name="debug_2";
 			text="Debug";
 			markerType="ELLIPSE";
