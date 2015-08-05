@@ -117,6 +117,10 @@ class client
 		{
 			file = "client\iconAgent.sqf";
 		};
+		class ratingAgent
+		{
+			file = "client\ratingAgent.sqf";
+		};
 	};
 };
 

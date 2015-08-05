@@ -8,3 +8,4 @@ call compile preprocessFileLineNumbers "plank\plank_init.sqf";
 // titleFadeOut 1;
 
 [] spawn client_fnc_iconAgent;
+[] spawn client_fnc_ratingAgent;
