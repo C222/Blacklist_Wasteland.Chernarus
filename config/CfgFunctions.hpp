@@ -143,13 +143,17 @@ class missions
 {
 	class common
 	{
-		class simpleTruck
+		class simpleArmor
 		{
-			file = "missions\simpleTruck.sqf";
+			file = "missions\simpleArmor.sqf";
 		};
 		class simpleHeli
 		{
 			file = "missions\simpleHeli.sqf";
+		};
+		class townInvasion
+		{
+			file = "missions\townInvasion.sqf";
 		};
 		class makeEnemies
 		{
