@@ -238,3 +238,72 @@ class BOX
     text = ""; 
 
 };
+
+class RscHTML
+{
+    access = 0;
+	colorBackground[] = {0,0,0,0};
+	colorBold[] = {1,1,1,1};
+	colorLink[] = {1,1,1,0.75};
+	colorLinkActive[] = {1,1,1,1};
+	colorPicture[] = {1,1,1,1};
+	colorPictureBorder[] = {0,0,0,0};
+	colorPictureLink[] = {1,1,1,1};
+	colorPictureSelected[] = {1,1,1,1};
+	colorText[] = {1,1,1,1};
+	filename = "";
+	idc = -1;
+	nextPage = "\A3\ui_f\data\gui\rsccommon\rschtml\arrow_right_ca.paa";
+	prevPage = "\A3\ui_f\data\gui\rsccommon\rschtml\arrow_left_ca.paa";
+	shadow = 2;
+	sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+	style = 0;
+	tooltipColorBox[] = {0,0,0,0.5};
+	tooltipColorShade[] = {1,1,0.7,1};
+	tooltipColorText[] = {0,0,0,1};
+	type = 9;
+
+	class H1 {
+		align = "left";
+		font = "PuristaMedium";
+		fontBold = "PuristaSemibold";
+		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)";
+	};
+	class H2 {
+		align = "right";
+		font = "PuristaMedium";
+		fontBold = "PuristaSemibold";
+		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";		
+	};
+	class H3 {
+		align = "left";
+		font = "PuristaMedium";
+		fontBold = "PuristaSemibold";
+		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+	};
+	class H4 {
+		align = "left";
+		font = "PuristaMedium";
+		fontBold = "PuristaSemibold";
+		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+	};
+	class H5 {
+		align = "left";
+		font = "PuristaMedium";
+		fontBold = "PuristaSemibold";
+		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+	};
+	class H6 {
+		align = "left";
+		font = "PuristaMedium";
+		fontBold = "PuristaSemibold";
+		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+	};
+	class P {
+		align = "left";
+		font = "PuristaMedium";
+		fontBold = "PuristaSemibold";
+		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+
+	};
+};

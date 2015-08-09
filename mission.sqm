@@ -1428,7 +1428,7 @@ class Mission
 		};
 		class Item87
 		{
-			position[]={-1632.8179,464.29852,10625.66};
+			position[]={1157.4398,5.6364613,2505.0291};
 			name="Tikhaya";
 			markerType="ELLIPSE";
 			type="Empty";

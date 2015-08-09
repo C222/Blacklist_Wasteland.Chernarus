@@ -60,3 +60,24 @@ class SPAWN_DIALOG
 		////////////////////////////////////////////////////////
 	};
 };
+
+class API_STORE {
+	idd = 1013;
+	class Controls
+	{
+		class API_CONTROL: RscHTML {
+			idc = 1014;
+			text = "Loading....";
+			font = "EtelkaNarrowMediumPro";
+			sizeEx = 0.023;
+
+			colorBackground[] = { 1, 1, 1, 0.3 };
+			colorText[] = { 0, 0, 0, 1 };
+
+			x = 0.8;
+			y = 0.1;
+			w = 0.2;
+			h = 0.05;
+		};
+	};
+};
