@@ -32,6 +32,8 @@ _spawnedM setMarkerText format ["%1", "BMP-1 Delivery"];
 _spawnedM setMarkerColor "ColorRed";
 
 _group = [5, _spawnPos] call missions_fnc_makeEnemies;
+[_group] spawn util_fnc_groupTrack;
+[_group, _spawnPos] call BIS_fnc_taskDefend;
 //END SETUP
 
 //BEGIN IN PROGRESS

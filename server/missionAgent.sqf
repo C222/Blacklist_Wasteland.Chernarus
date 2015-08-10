@@ -19,7 +19,7 @@ CIVILIAN setFriend [RESISTANCE, 0];
 _lastMissionTime = time;
 _lastMissionHandle = 0 spawn {};
 
-_missions = [missions_fnc_simpleArmor, missions_fnc_simpleHeli, missions_fnc_townInvasion];
+_missions = [/*missions_fnc_simpleArmor, missions_fnc_simpleHeli,*/missions_fnc_townInvasion];
 
 // systemChat "Starting Missions";
 while {true} do

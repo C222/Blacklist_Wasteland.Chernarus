@@ -111,7 +111,7 @@ _man9 allowFleeing 0;
 };
 
 _g selectLeader _man1;
-[_g, _pos] call BIS_fnc_taskDefend;
+// [_g, _pos] call BIS_fnc_taskDefend;
 
 // diag_log format ["%1", _g];
 _g

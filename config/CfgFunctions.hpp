@@ -57,6 +57,10 @@ class util
 		{
 			file = "util\groupDead.sqf";
 		};
+		class groupTrack
+		{
+			file = "util\groupTrack.sqf";
+		};
 	};
 };
 

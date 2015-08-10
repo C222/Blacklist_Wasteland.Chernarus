@@ -8,12 +8,12 @@ _mPos = markerPos _missionSpot;
 _mSize = markerSize _missionSpot;
 _radius  = (_mSize select 0);
 
-_picture = getText (configFile >> "cfgVehicles" >> "C_Driver_1_black_F" >> "picture");
+_picture = "\a3\ui_f\data\gui\cfg\Hints\TGuide\fireteam2_ca.paa";
 _hint = parseText format [
 "<t align='center'><img size='5' image='images\blacklist_icon.paa'/></t><br/>
 <t align='center' color='%5' size='1.25'>%1</t><br/>
 <t align='center'><img size='5' image='%2'/></t><br/>
-<t align='center' color='%5'>Enemies have invaded over<t color='%4'> %3</t>.</t>",
+<t align='center' color='%5'>Enemies have invaded<t color='%4'> %3</t>.</t>",
 _title, _picture, markerText _missionSpot, "#52bf90", "#FFFFFF"];
 
 hint _hint;
@@ -34,6 +34,9 @@ _mPos = [_xPos, _yPos, (_mPos select 2)];
 
 _spawnPos = _mPos findEmptyPosition [0, 50, "B_Heli_Light_01_armed_F"];
 _group1 = [5, _spawnPos] call missions_fnc_makeEnemies;
+// _group1 move _mPos;
+[_group1, _mPos] call BIS_fnc_taskDefend;
+[_group1] spawn util_fnc_groupTrack;
 
 _offset = [_radius] call util_fnc_randRadius;
 
@@ -43,6 +46,9 @@ _mPos = [_xPos, _yPos, (_mPos select 2)];
 
 _spawnPos = _mPos findEmptyPosition [0, 50, "B_Heli_Light_01_armed_F"];
 _group2 = [5, _spawnPos] call missions_fnc_makeEnemies;
+// _group2 move _mPos;
+[_group2, _mPos] call BIS_fnc_taskDefend;
+[_group2] spawn util_fnc_groupTrack;
 
 _offset = [_radius] call util_fnc_randRadius;
 
@@ -52,6 +58,9 @@ _mPos = [_xPos, _yPos, (_mPos select 2)];
 
 _spawnPos = _mPos findEmptyPosition [0, 50, "B_Heli_Light_01_armed_F"];
 _group3 = [5, _spawnPos] call missions_fnc_makeEnemies;
+// _group3 move _mPos;
+[_group3, _mPos] call BIS_fnc_taskDefend;
+[_group3] spawn util_fnc_groupTrack;
 //END SETUP
 
 //BEGIN IN PROGRESS
@@ -61,7 +70,11 @@ while{!_done} do
 	if (([_group1] call util_fnc_groupDead) and ([_group2] call util_fnc_groupDead) and ([_group3] call util_fnc_groupDead)) then
 	{
 		_done = true;
-		_hint = parseText format ["<t align='center'><img size='5' image='images\blacklist_icon.paa'/></t><br/><t align='center' color='%4' size='1.25'>%1</t><br/><t align='center'><img size='5' image='%2'/></t><br/><t align='center' color='%5'><t color='%4'>%3</t> has been captured.</t>", "AH-9 Delivery", _picture, _vehicleName, "#52bf90", "#FFFFFF"];
+		_hint = parseText format ["<t align='center'><img size='5' image='images\blacklist_icon.paa'/></t><br/>
+<t align='center' color='%4' size='1.25'>%1</t><br/>
+<t align='center'><img size='5' image='%2'/></t><br/>
+<t align='center' color='%5'>Enemies in <t color='%4'>%3</t> have been neutralized.</t>",
+		_title, _picture, markerText _missionSpot, "#52bf90", "#FFFFFF"];
 		hint _hint;
 		[_hint,"hint",true,false] call BIS_fnc_MP;
 	};

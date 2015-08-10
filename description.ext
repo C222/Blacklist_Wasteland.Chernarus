@@ -3,8 +3,8 @@
 
 #include "plank\plank.hpp"
 
-version = "0.8.2";
-onLoadMission = "Blacklist Wasteland [0.8.2] - Chernarus";
+version = "0.8.3";
+onLoadMission = "Blacklist Wasteland [0.8.3] - Chernarus";
 respawn = "BASE";
 disabledAI = 1;
 author = "C222";
