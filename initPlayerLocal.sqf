@@ -9,3 +9,4 @@ call compile preprocessFileLineNumbers "plank\plank_init.sqf";
 
 [] spawn client_fnc_iconAgent;
 [] spawn client_fnc_ratingAgent;
+[] spawn client_fnc_hudAgent;

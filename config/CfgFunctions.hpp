@@ -125,6 +125,10 @@ class client
 		{
 			file = "client\ratingAgent.sqf";
 		};
+		class hudAgent
+		{
+			file = "client\hudAgent.sqf";
+		};
 	};
 };
 

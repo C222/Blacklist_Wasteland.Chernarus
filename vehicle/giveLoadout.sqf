@@ -28,7 +28,7 @@ _vehicle addWeaponCargoGlobal [_pistol, 1];
 _vehicle addMagazineCargoGlobal [_magP, 1 + (random 5)];
 _vehicle addMagazineCargoGlobal [_magS, 1 + (random 5)];
 
-for "_x" from 1 to 3 do
+for "_x" from 1 to 5 do
 {
 	_chosenIdx = random ((count _loots) - 1);
 	_loot = _loots select _chosenIdx;
