@@ -61,6 +61,10 @@ class util
 		{
 			file = "util\groupTrack.sqf";
 		};
+		class getPoses
+		{
+			file = "util\getPoses.sqf";
+		};
 	};
 };
 
@@ -109,6 +113,10 @@ class server
 		class missionAgent
 		{
 			file = "server\missionAgent.sqf";
+		};
+		class foodAgent
+		{
+			file = "server\foodAgent.sqf";
 		};
 	};
 };

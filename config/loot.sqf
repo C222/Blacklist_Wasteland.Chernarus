@@ -45,5 +45,7 @@
 	// Items
 	["ItemGPS", "ItemGPS", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "rhs_pdu4", "rhs_tr8_periscope_pip", "lerca_1200_black", "lerca_1200_tan", "Medikit", "ToolKit"],
 	// Launchers
-	["rhs_weap_fim92", "rhs_weap_fgm148", "rhs_weap_rpg7", "rhs_weap_rpg7_pgo", "rhs_weap_rpg7_1pn93", "rhs_weap_igla"]
+	["rhs_weap_fim92", "rhs_weap_fgm148", "rhs_weap_rpg7", "rhs_weap_rpg7_pgo", "rhs_weap_rpg7_1pn93", "rhs_weap_igla"],
+	// Consumables
+	["Land_CerealsBox_F", "Land_Can_V1_F", "Land_Can_V2_F", "Land_TacticalBacon_F", "Land_BakedBeans_F", "Land_BottlePlastic_V2_F", "Land_Canteen_F", "Land_PowderedMilk_F", "Land_RiceBox_F"]
 ]

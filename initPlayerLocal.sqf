@@ -7,6 +7,8 @@ call compile preprocessFileLineNumbers "plank\plank_init.sqf";
 // [_thePlayer] call player_fnc_spawn;
 // titleFadeOut 1;
 
+waitUntil{readyForSpawn};
+
 [] spawn client_fnc_iconAgent;
 [] spawn client_fnc_ratingAgent;
 [] spawn client_fnc_hudAgent;
