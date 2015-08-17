@@ -14,7 +14,7 @@ _ok = createDialog "SPAWN_DIALOG";
 
 while {dialog} do
 {
-	_fTowns = ([_thePlayer] call player_fnc_friendlyTowns) + ["debug", "kamenka"];
+	_fTowns = ([_thePlayer] call player_fnc_friendlyTowns);// + ["debug", "kamenka"];
 	
 	lbClear 1602;
 	{
