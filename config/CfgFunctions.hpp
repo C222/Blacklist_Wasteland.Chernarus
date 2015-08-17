@@ -80,6 +80,10 @@ class player
 		{
 			file = "player\friendlyTowns.sqf";
 		};
+		class addActions
+		{
+			file = "player\addActions.sqf";
+		};
 	};
 };
 

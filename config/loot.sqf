@@ -47,5 +47,5 @@
 	// Launchers
 	["rhs_weap_fim92", "rhs_weap_fgm148", "rhs_weap_rpg7", "rhs_weap_rpg7_pgo", "rhs_weap_rpg7_1pn93", "rhs_weap_igla"],
 	// Consumables
-	["Land_CerealsBox_F", "Land_Can_V1_F", "Land_Can_V2_F", "Land_TacticalBacon_F", "Land_BakedBeans_F", "Land_BottlePlastic_V2_F", "Land_Canteen_F", "Land_PowderedMilk_F", "Land_RiceBox_F"]
+	[["Land_CerealsBox_F", "isFood"], ["Land_Can_V1_F", "isDrink"], ["Land_Can_V2_F", "isDrink"], ["Land_TacticalBacon_F", "isFood"], ["Land_BakedBeans_F", "isFood"], ["Land_BottlePlastic_V2_F", "isDrink"], ["Land_Canteen_F", "isDrink"], ["Land_PowderedMilk_F", "isFood"], ["Land_RiceBox_F", "isFood"]]
 ]

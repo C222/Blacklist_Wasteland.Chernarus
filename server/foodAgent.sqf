@@ -16,8 +16,12 @@ _loot = [] call config_fnc_getLoot select 4;
 	} forEach _houses;
 	
 	{
-		_veh = (([_loot] call util_fnc_pickOne) select 0) createVehicle [0, 0, 0];
+		_item = (([_loot] call util_fnc_pickOne) select 0);
+		_type = _item select 0;
+		_varname = _item select 1;
+		_veh = _type createVehicle [0, 0, 0];
 		_veh setPos _x;
+		_veh setVariable [_varname, 1];
 	} forEach _poses;
 	
 } forEach _towns;

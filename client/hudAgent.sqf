@@ -14,11 +14,11 @@ while {true} do
 	//Calculate Health 0 - 100
 	_decimalPlaces = 3;
 	
-	_water_level = player getVariable "waterStat";
-	_food_level = player getVariable "foodStat";
+	_water_level = player getVariable ["waterStat", 75];
+	_food_level = player getVariable ["foodStat", 75];
 	
-	_water_level = 0 max (_water_level - 0.003472);
-	_food_level = 0 max (_food_level - 0.000496);
+	_water_level = 0 max (_water_level - 0.015);
+	_food_level = 0 max (_food_level - 0.005);
 	
 	player setVariable ["waterStat", _water_level];
 	player setVariable ["foodStat", _food_level];
