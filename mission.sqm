@@ -9,14 +9,14 @@ class Mission
 		"rhs_cti_insurgents",
 		"rhsusf_c_troops",
 		"rhs_c_troops",
-		"A3_Signs_F_AD"
+		"A3_Structures_F_Civ_InfoBoards"
 	};
 	addOnsAuto[]=
 	{
 		"rhs_cti_insurgents",
 		"rhsusf_c_troops",
 		"rhs_c_troops",
-		"A3_Signs_F_AD",
+		"A3_Structures_F_Civ_InfoBoards",
 		"aia_chernarus_config"
 	};
 	randomSeed=11986584;
@@ -565,11 +565,11 @@ class Mission
 		items=1;
 		class Item0
 		{
-			position[]={7069.6338,294,7709.5972};
+			position[]={7749.6138,329.44415,7325.1016};
 			azimut=-18.187504;
 			id=27;
 			side="EMPTY";
-			vehicle="SignAd_Sponsor_F";
+			vehicle="Land_Billboard_F";
 			skill=0.60000002;
 			init="this setObjectTextureGlobal [0,""images\blacklist_icon.paa""]";
 		};
