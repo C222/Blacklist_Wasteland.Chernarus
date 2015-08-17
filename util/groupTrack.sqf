@@ -15,7 +15,7 @@ while {!([_group] call util_fnc_groupDead)} do
 				_spawnedM setMarkerShape "ICON";
 				_spawnedM setMarkerType "o_inf";
 				_spawnedM setMarkerAlpha 0.5;
-				diag_log format ["Making marker for %1", _x];
+				// diag_log format ["Making marker for %1", _x];
 				_markers pushBack str(_x);
 			};
 			// _spawnedM setMarkerText format ["%1", _title];
@@ -23,7 +23,7 @@ while {!([_group] call util_fnc_groupDead)} do
 			str(_x) setMarkerPos getPos _x;
 		} else
 		{
-			diag_log format ["Deleting marker for %1", _x];
+			// diag_log format ["Deleting marker for %1", _x];
 			deleteMarker str(_x);
 			[_x] join grpNull;
 		};
@@ -33,7 +33,7 @@ while {!([_group] call util_fnc_groupDead)} do
 };
 
 {
-	diag_log format ["Deleting marker for %1", _x];
+	// diag_log format ["Deleting marker for %1", _x];
 	deleteMarker _x;
 	[_x] join grpNull;
 } forEach _markers;
