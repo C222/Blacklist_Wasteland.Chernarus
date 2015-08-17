@@ -576,7 +576,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=94;
+		items=95;
 		class Item0
 		{
 			position[]={10511.01,6,2268.4426};
@@ -1482,6 +1482,17 @@ class Mission
 			type="Empty";
 			a=20;
 			b=20;
+		};
+		class Item94
+		{
+			position[]={7081.0903,327.43921,8344.9971};
+			name="whole_map";
+			markerType="ELLIPSE";
+			type="Empty";
+			fillName="Border";
+			a=10000;
+			b=10000;
+			drawBorder=1;
 		};
 	};
 };
