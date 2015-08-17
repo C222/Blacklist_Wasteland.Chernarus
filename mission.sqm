@@ -3,12 +3,7 @@ class Mission
 {
 	addOns[]=
 	{
-		"chernarus",
 		"A3_Characters_F_Kart",
-		"aia_chernarus_config",
-		"rhs_cti_insurgents",
-		"rhsusf_c_troops",
-		"rhs_c_troops",
 		"A3_Structures_F_Civ_InfoBoards"
 	};
 	addOnsAuto[]=
